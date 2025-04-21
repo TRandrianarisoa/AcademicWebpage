@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bibtexes on Thibault Randrianarisoa</title>
+    <link>http://localhost:1313/bibtex/</link>
+    <description>Recent content in Bibtexes on Thibault Randrianarisoa</description>
+    <generator>Hugo -- 0.139.2</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/bibtex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BibTeX - Randrianarisoa 2022</title>
+      <link>http://localhost:1313/bibtex/citation-bj28_2492/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bibtex/citation-bj28_2492/</guid>
+      <description>&lt;h5 id=&#34;citation&#34;&gt;Citation&lt;/h5&gt;
+&lt;p&gt;Schreiber-Ziegler, Hilda, and Moritz-Maria von Igelfeld. 2021. &amp;ldquo;Your Inner Hedgehog.&amp;rdquo; &lt;em&gt;Journal of Socio-Experimental Psychology&lt;/em&gt; 131 (2): 1299–1302.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-BibTeX&#34; data-lang=&#34;BibTeX&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0a0;text-decoration:underline&#34;&gt;@article&lt;/span&gt;{SZI21,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#1e90ff&#34;&gt;author&lt;/span&gt; = &lt;span style=&#34;color:#a50&#34;&gt;{Hilda Schreiber-Ziegler and Moritz-Maria von Igelfeld}&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#1e90ff&#34;&gt;year&lt;/span&gt; = &lt;span style=&#34;color:#a50&#34;&gt;{2021}&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#1e90ff&#34;&gt;title&lt;/span&gt; =&lt;span style=&#34;color:#a50&#34;&gt;{Your Inner Hedgehog}&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#1e90ff&#34;&gt;journal&lt;/span&gt; = &lt;span style=&#34;color:#a50&#34;&gt;{Journal of Socio-Experimental Psychology}&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#1e90ff&#34;&gt;volume&lt;/span&gt; = &lt;span style=&#34;color:#a50&#34;&gt;{131}&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#1e90ff&#34;&gt;number&lt;/span&gt; = &lt;span style=&#34;color:#a50&#34;&gt;{2}&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#1e90ff&#34;&gt;pages&lt;/span&gt; = &lt;span style=&#34;color:#a50&#34;&gt;{1299--1302}&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,75 +1,114 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Moritz-Maria von Igelfeld</title>
-    <link>https://pascalmichaillat.org/hugo-website/</link>
-    <description>Recent content on Moritz-Maria von Igelfeld</description>
-    <generator>Hugo -- 0.139.0</generator>
+    <title>Thibault Randrianarisoa</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Thibault Randrianarisoa</description>
+    <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://pascalmichaillat.org/hugo-website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Location</title>
-      <link>https://pascalmichaillat.org/hugo-website/location/</link>
-      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/location/</guid>
-      <description>Professor Dr von Igelfeld&amp;#39;s mailing and office addresses at the Institute of Romance Philology.</description>
+      <link>http://localhost:1313/location/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/location/</guid>
+      <description>Office addresses at the University of Toronto.</description>
     </item>
     <item>
-      <title>Office Hours</title>
-      <link>https://pascalmichaillat.org/hugo-website/officehours/</link>
-      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/officehours/</guid>
-      <description>Schedule and location for Professor Dr von Igelfeld&amp;#39;s office hours.</description>
+      <title>Office Hours/Courses</title>
+      <link>http://localhost:1313/teaching/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/</guid>
+      <description>Schedule and location for T. Randrianarisoa&amp;#39;s office hours.</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>A current list of publications involving Thibault Randrianarisoa.</description>
     </item>
     <item>
       <title>Your Inner Hedgehog</title>
-      <link>https://pascalmichaillat.org/hugo-website/papers/paper3/</link>
+      <link>http://localhost:1313/papers/paper3/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/papers/paper3/</guid>
+      <guid>http://localhost:1313/papers/paper3/</guid>
       <description>This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021.</description>
     </item>
     <item>
       <title>List of Irregular Verbs Across Romance Languages</title>
-      <link>https://pascalmichaillat.org/hugo-website/data/data1/</link>
+      <link>http://localhost:1313/data/data1/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/data/data1/</guid>
+      <guid>http://localhost:1313/data/data1/</guid>
       <description>This dataset contains all irregular verbs in known Romance languages.</description>
     </item>
     <item>
       <title>Unusual Uses For Olive Oil</title>
-      <link>https://pascalmichaillat.org/hugo-website/papers/paper1/</link>
+      <link>http://localhost:1313/papers/paper1/</link>
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/papers/paper1/</guid>
+      <guid>http://localhost:1313/papers/paper1/</guid>
       <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.</description>
     </item>
     <item>
       <title>The Finer Points of Sausage Dogs</title>
-      <link>https://pascalmichaillat.org/hugo-website/papers/paper2/</link>
+      <link>http://localhost:1313/papers/paper2/</link>
       <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/papers/paper2/</guid>
+      <guid>http://localhost:1313/papers/paper2/</guid>
       <description>This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004.</description>
     </item>
     <item>
       <title>Lectures at the Villa of Reduced Circumstances</title>
-      <link>https://pascalmichaillat.org/hugo-website/courses/course1/</link>
+      <link>http://localhost:1313/courses/course1/</link>
       <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/courses/course1/</guid>
+      <guid>http://localhost:1313/courses/course1/</guid>
       <description>This graduate course presents classical results in Romance philology.</description>
     </item>
     <item>
       <title>Portugese Irregular Verbs</title>
-      <link>https://pascalmichaillat.org/hugo-website/books/book1/</link>
+      <link>http://localhost:1313/books/book1/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/books/book1/</guid>
+      <guid>http://localhost:1313/books/book1/</guid>
       <description>This book discusses Portugese irregular verbs in great details.</description>
     </item>
     <item>
       <title>Profanity in Early Irish</title>
-      <link>https://pascalmichaillat.org/hugo-website/courses/course2/</link>
+      <link>http://localhost:1313/courses/course2/</link>
       <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/courses/course2/</guid>
+      <guid>http://localhost:1313/courses/course2/</guid>
       <description>This undergraduate course discusses profanity in Early Irish.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/research_interests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research_interests/</guid>
+      <description>&lt;h1 id=&#34;research-interests&#34;&gt;Research interests&lt;/h1&gt;
+&lt;p&gt;I am mainly interested in high-dimensional and nonparametric statistics. More precisely, my research interests include
+statistical machine learning, Bayesian nonparametrics, uncertainty quantification and inverse problems.&lt;/p&gt;
+&lt;p&gt;Topics I have worked on include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bayesian nonparametrics&lt;/li&gt;
+&lt;li&gt;(Deep) Gaussian processes&lt;/li&gt;
+&lt;li&gt;Tree-based methods (Random Forests, CART, Pólya Trees, BART,&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Uncertainty quantification&lt;/li&gt;
+&lt;li&gt;Variational Bayes&lt;/li&gt;
+&lt;li&gt;Inverse problems&lt;/li&gt;
+&lt;li&gt;Differential privacy&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/short_bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/short_bio/</guid>
+      <description>&lt;h1 id=&#34;short-biography&#34;&gt;Short Biography&lt;/h1&gt;
+&lt;p&gt;I am a Postdoctoral Fellow in the &lt;a href=&#34;https://utsc.utoronto.ca/cms/&#34; target=&#34;_blank&#34;&gt;Department of Computer &amp;amp; Mathematical Sciences&lt;/a&gt;   at the University of Toronto at Scarborough (UTSC), working with &lt;a href=&#34;http://danroy.org&#34; target=&#34;_blank&#34;&gt;Dan Roy&lt;/a&gt;. I completed my PhD in Statistics at &lt;a href=&#34;https://www.sorbonne-universite.fr/en&#34; target=&#34;_blank&#34;&gt;Sorbonne Université&lt;/a&gt; (Paris, France), where I worked in the
+&lt;a href=&#34;https://www.lpsm.paris&#34; target=&#34;_blank&#34;&gt;LPSM&lt;/a&gt; lab under the supervision of &lt;a href=&#34;https://perso.lpsm.paris/~castillo/&#34; target=&#34;_blank&#34;&gt;Ismaël Castillo&lt;/a&gt;.
+Before joining the UoT, I was a Postdoctoral researcher at &lt;a href=&#34;https://bidsa.unibocconi.eu&#34; target=&#34;_blank&#34;&gt;BIDSA&lt;/a&gt;, &lt;a href=&#34;https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation&amp;#43;Tree/Home/&#34; target=&#34;_blank&#34;&gt;Bocconi University&lt;/a&gt; (Milan, Italy) working with &lt;a href=&#34;https://botondszabo.com&#34; target=&#34;_blank&#34;&gt;Botond Szabo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My PhD manuscript can be found
+&lt;a href=&#34;https://hal.archives-ouvertes.fr/view/index/docid/3890739&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am/have been a member of the following projects:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

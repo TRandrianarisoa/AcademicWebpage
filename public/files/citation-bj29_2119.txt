@@ -1,0 +1,14 @@
+@article{10.3150/22-BEJ1535,
+author = {Neil Deo and Thibault Randrianarisoa},
+title = {{On adaptive confidence sets for the Wasserstein distances}},
+volume = {29},
+journal = {Bernoulli},
+number = {3},
+publisher = {Bernoulli Society for Mathematical Statistics and Probability},
+pages = {2119 -- 2141},
+abstract = {In the density estimation model, we investigate the problem of constructing adaptive honest confidence sets with diameter measured in Wasserstein distance Wp, p≥1, and for densities with unknown regularity measured on a Besov scale. As sampling domains, we focus on the d-dimensional torus Td, in which case 1≤p≤2, and Rd, for which p=1. We identify necessary and sufficient conditions for the existence of adaptive confidence sets with diameters of the order of the regularity-dependent Wp-minimax estimation rate. Interestingly, it appears that the possibility of such adaptation of the diameter depends on the dimension of the underlying space. In low dimensions, d≤4, adaptation to any regularity is possible. In higher dimensions, adaptation is possible if and only if the underlying regularities belong to some bounded interval, whose width can be chosen to be at least d∕(d−4). This contrasts with the Lp-theory where, independently of the dimension, adaptation occurs only if regularities lie in a small fixed-width window. When possible, we explicitly construct confidence regions via the method of risk estimation. These are the first results in a statistical approach to adaptive uncertainty quantification with Wasserstein distances. Our analysis and methods extend to weak losses such as Sobolev norms with negative smoothness indices.},
+keywords = {nonparametric confidence sets, uncertainty quantification, Wasserstein distance},
+year = {2023},
+doi = {10.3150/22-BEJ1535},
+URL = {https://doi.org/10.3150/22-BEJ1535}
+}

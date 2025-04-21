@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="021658f4-fe84-4703-894d-5d7ab3fc5f05" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/publications.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/research_interests.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/short_bio.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/core/theme-vars.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/core/theme-vars.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/location.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/location.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/officehours.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/teaching.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/papers/paper1/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/papers/paper1/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/books/book1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/books/book1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/books/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/books/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/books/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/books/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/books/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/books/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course1/ps1.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course1/ps1.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course1/quiz1.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course1/quiz1.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course1/quiz2.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course1/quiz2.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course2/notes3.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/notes3.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course2/notes4.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/notes4.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course2/ps3.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/ps3.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course2/ps4.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/ps4.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course2/quiz3.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/quiz3.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course2/quiz4.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/quiz4.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course2/slides1.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/slides1.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course2/slides2.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/slides2.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course2/slides3.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/slides3.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/course2/slides4.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/slides4.pdf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/courses/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cv.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/data1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/data1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/location/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/location/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/officehours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/officehours/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/papers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/papers/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/papers/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/papers/paper1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/paper1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/papers/paper2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/paper2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/papers/paper3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/paper3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/academia/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/academia/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/academia/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/academia/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/academia/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/academia/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/canine-science/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-science/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/canine-science/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-science/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/canine-science/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-science/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/celtic-languages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/celtic-languages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/celtic-languages/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/celtic-languages/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/celtic-languages/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/celtic-languages/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/dataset/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/dataset/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/dataset/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/dataset/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/dataset/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/dataset/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/experimental-psychology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-psychology/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/experimental-psychology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-psychology/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/experimental-psychology/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-psychology/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/experimental-zoology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-zoology/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/experimental-zoology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-zoology/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/experimental-zoology/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-zoology/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/french/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/french/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/french/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/french/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/french/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/french/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/history-of-oil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/history-of-oil/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/history-of-oil/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/history-of-oil/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/history-of-oil/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/history-of-oil/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/inner-hedgehog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/inner-hedgehog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/inner-hedgehog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/inner-hedgehog/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/inner-hedgehog/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/inner-hedgehog/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/invasive-thoughts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/invasive-thoughts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/invasive-thoughts/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/invasive-thoughts/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/invasive-thoughts/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/invasive-thoughts/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/irish/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irish/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/irish/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irish/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/irish/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irish/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/irregular-verbs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irregular-verbs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/irregular-verbs/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irregular-verbs/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/irregular-verbs/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irregular-verbs/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/italian/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/italian/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/italian/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/italian/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/italian/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/italian/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/language-modernization/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/language-modernization/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/language-modernization/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/language-modernization/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/language-modernization/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/language-modernization/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/mediterranean-world/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/mediterranean-world/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/mediterranean-world/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/mediterranean-world/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/mediterranean-world/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/mediterranean-world/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/oleic-science/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/oleic-science/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/oleic-science/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/oleic-science/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/oleic-science/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/oleic-science/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/philology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/philology/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/philology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/philology/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/philology/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/philology/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/portugese/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portugese/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/portugese/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portugese/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/portugese/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portugese/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/portuguese/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portuguese/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/portuguese/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portuguese/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/portuguese/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portuguese/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/profanity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/profanity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/profanity/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/profanity/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/profanity/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/profanity/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/python/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/python/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/python/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/python/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/python/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/romance-languages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/romance-languages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/romance-languages/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/romance-languages/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/romance-languages/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/romance-languages/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/sausage-dogs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/sausage-dogs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/sausage-dogs/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/sausage-dogs/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/sausage-dogs/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/sausage-dogs/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/simulations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/simulations/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/simulations/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/simulations/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/simulations/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/simulations/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/social-psychology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/social-psychology/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/social-psychology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/social-psychology/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/social-psychology/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/social-psychology/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/spanish/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/spanish/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/spanish/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/spanish/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/spanish/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/spanish/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/zoology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/zoology/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/zoology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/zoology/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/zoology/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/zoology/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cv.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/core/theme-vars.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod/assets/css/core/theme-vars.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/index_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/index_profile.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/themes/PaperMod/layouts/partials/index_profile.html" />
+        <option value="$PROJECT_DIR$/config.yml" />
+        <option value="$PROJECT_DIR$/assets/css/common/main.css" />
+        <option value="$PROJECT_DIR$/themes/PaperMod/assets/css/core/theme-vars.css" />
+        <option value="$PROJECT_DIR$/assets/css/core/theme-vars.css" />
+        <option value="$PROJECT_DIR$/content/research_interests.md" />
+        <option value="$PROJECT_DIR$/content/short_bio.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="48" />
+    <option name="y" value="32" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectId" id="2w2YettRwiN9aanBaVIQenVe3S9" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AcademicWebpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademicWebpage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademicWebpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademicWebpage" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademicWebpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademicWebpage" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademicWebpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademicWebpage" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="PaperMod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademicWebpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademicWebpage" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="PaperMod" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademicWebpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademicWebpage" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="PaperMod" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademicWebpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademicWebpage" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="PaperMod" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademicWebpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademicWebpage" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="PaperMod" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/thibault/Documents/Website/AcademicWebpage",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/Bibtex" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/content" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="021658f4-fe84-4703-894d-5d7ab3fc5f05" name="Default" comment="" />
+      <created>1732574444520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732574444520</updated>
+      <workItem from="1745241236548" duration="14669000" />
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="48" y="32" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Anonymous Apex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SOQL Query" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Log Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/core/theme-vars.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/research_interests.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/assets/css/core/theme-vars.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/assets/css/common/profile-mode.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/common/profile-mode.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/short_bio.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/core/theme-vars.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/research_interests.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/layouts/partials/index_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/short_bio.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="80" lean-forward="false" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/layouts/_default/baseof.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/favicon-32x32.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/favicon-16x16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/picture.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/common/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/common/archive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/common/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/common/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/common/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/common/terms.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/officehours.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/apple-touch-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/layouts/_default/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/layouts/partials/home_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/layouts/partials/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/layouts/partials/author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/layouts/partials/index_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/assets/css/common/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/assets/css/core/zmedia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/assets/css/core/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/assets/css/core/license.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/assets/css/common/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/theme.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/core/theme-vars.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/research_interests.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/assets/css/core/theme-vars.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/PaperMod/assets/css/common/profile-mode.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/common/profile-mode.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/short_bio.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="116" lean-forward="false" selection-start-line="2" selection-start-column="116" selection-end-line="2" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

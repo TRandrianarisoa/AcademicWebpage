@@ -1,0 +1,14 @@
+@article{10.3150/21-BEJ1426,
+author = {Thibault Randrianarisoa},
+title = {{Smoothing and adaptation of shifted Pólya tree ensembles}},
+volume = {28},
+journal = {Bernoulli},
+number = {4},
+publisher = {Bernoulli Society for Mathematical Statistics and Probability},
+pages = {2492 -- 2517},
+abstract = {Recently, S. Arlot and R. Genuer have shown that a random forest model outperforms its single-tree counterpart in estimating α-Hölder functions, 1≤α≤2. This backs up the idea that ensembles of tree estimators are smoother estimators than single trees. On the other hand, most positive optimality results on Bayesian tree-based methods assume that α≤1. Naturally, one wonders whether Bayesian counterparts of forest estimators are optimal on smoother classes, just as observed with frequentist estimators for α≤2. We focus on density estimation and introduce an ensemble estimator from the classical (truncated) Pólya tree construction in Bayesian nonparametrics. Inspired by the work mentioned above, the resulting Bayesian forest estimator is shown to lead to optimal posterior contraction rates, up to logarithmic terms, for the Hellinger and L1 distances on probability density functions on [0;1) for arbitrary Hölder regularity α>0. This improves upon previous results for constructions related to the Pólya tree prior, whose optimality was only proven when α≤1. Also, by adding a hyperprior on the trees’ depth, we obtain an adaptive version of the prior that does not require α to be specified to attain optimality.},
+keywords = {Bayesian nonparametrics, ensemble, forest, Pólya tree},
+year = {2022},
+doi = {10.3150/21-BEJ1426},
+URL = {https://doi.org/10.3150/21-BEJ1426}
+}

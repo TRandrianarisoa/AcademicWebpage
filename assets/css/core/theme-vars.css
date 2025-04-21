@@ -1,8 +1,12 @@
+body {
+    font-family: 'Source Sans 3', -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
 :root {
-    --gap: 24px;
+    --gap: 32px;
     --content-gap: 20px;
     --nav-width: 1024px;
-    --main-width: 720px;
+    --main-width: 900px;
     --header-height: 44px;
     --footer-height: 70px;
     --radius: 8px;
@@ -16,15 +20,15 @@
     --code-block-bg: rgb(28, 29, 33);
     --code-bg: rgb(245, 245, 245);
     --border: rgb(238, 238, 238);
-    --darkcolor: #d95f0e;
-    --lightcolor: #fed582;
+    --darkcolor: #2C74F2;
+    --lightcolor: #7CA8F2;
     --semibold: 500;
-    --homesize: 16px;
-    --textsize: 18px;
-    --h1size: 25px;
-    --entrysize: 15px;
-    --headersize: 16px;
-    --footersize: 13px;
+    --homesize: 25px;
+    --textsize: 20px;
+    --h1size: 40px;
+    --entrysize: 18px;
+    --headersize: 18px;
+    --footersize: 15px;
     --lineheight: 1.45;
     --lineclamp: 8;
     --marginleft: 26px;

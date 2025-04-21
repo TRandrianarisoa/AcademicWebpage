@@ -1,207 +1,207 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Moritz-Maria von Igelfeld</title>
-    <link>https://pascalmichaillat.org/hugo-website/tags/</link>
-    <description>Recent content in Tags on Moritz-Maria von Igelfeld</description>
-    <generator>Hugo -- 0.139.0</generator>
+    <title>Tags on Thibault Randrianarisoa</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Thibault Randrianarisoa</description>
+    <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://pascalmichaillat.org/hugo-website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Academia</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/academia/</link>
+      <link>http://localhost:1313/tags/academia/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/academia/</guid>
+      <guid>http://localhost:1313/tags/academia/</guid>
       <description></description>
     </item>
     <item>
       <title>Experimental Psychology</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/experimental-psychology/</link>
+      <link>http://localhost:1313/tags/experimental-psychology/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/experimental-psychology/</guid>
+      <guid>http://localhost:1313/tags/experimental-psychology/</guid>
       <description></description>
     </item>
     <item>
       <title>Inner Hedgehog</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/inner-hedgehog/</link>
+      <link>http://localhost:1313/tags/inner-hedgehog/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/inner-hedgehog/</guid>
+      <guid>http://localhost:1313/tags/inner-hedgehog/</guid>
       <description></description>
     </item>
     <item>
       <title>Invasive Thoughts</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/invasive-thoughts/</link>
+      <link>http://localhost:1313/tags/invasive-thoughts/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/invasive-thoughts/</guid>
+      <guid>http://localhost:1313/tags/invasive-thoughts/</guid>
       <description></description>
     </item>
     <item>
       <title>Social Psychology</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/social-psychology/</link>
+      <link>http://localhost:1313/tags/social-psychology/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/social-psychology/</guid>
+      <guid>http://localhost:1313/tags/social-psychology/</guid>
       <description></description>
     </item>
     <item>
       <title>Dataset</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/dataset/</link>
+      <link>http://localhost:1313/tags/dataset/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/dataset/</guid>
+      <guid>http://localhost:1313/tags/dataset/</guid>
       <description></description>
     </item>
     <item>
       <title>French</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/french/</link>
+      <link>http://localhost:1313/tags/french/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/french/</guid>
+      <guid>http://localhost:1313/tags/french/</guid>
       <description></description>
     </item>
     <item>
       <title>Irregular Verbs</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/irregular-verbs/</link>
+      <link>http://localhost:1313/tags/irregular-verbs/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/irregular-verbs/</guid>
+      <guid>http://localhost:1313/tags/irregular-verbs/</guid>
       <description></description>
     </item>
     <item>
       <title>Italian</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/italian/</link>
+      <link>http://localhost:1313/tags/italian/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/italian/</guid>
+      <guid>http://localhost:1313/tags/italian/</guid>
       <description></description>
     </item>
     <item>
       <title>Philology</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/philology/</link>
+      <link>http://localhost:1313/tags/philology/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/philology/</guid>
+      <guid>http://localhost:1313/tags/philology/</guid>
       <description></description>
     </item>
     <item>
       <title>Portuguese</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/portuguese/</link>
+      <link>http://localhost:1313/tags/portuguese/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/portuguese/</guid>
+      <guid>http://localhost:1313/tags/portuguese/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/python/</link>
+      <link>http://localhost:1313/tags/python/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/python/</guid>
+      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Romance Languages</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/romance-languages/</link>
+      <link>http://localhost:1313/tags/romance-languages/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/romance-languages/</guid>
+      <guid>http://localhost:1313/tags/romance-languages/</guid>
       <description></description>
     </item>
     <item>
       <title>Simulations</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/simulations/</link>
+      <link>http://localhost:1313/tags/simulations/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/simulations/</guid>
+      <guid>http://localhost:1313/tags/simulations/</guid>
       <description></description>
     </item>
     <item>
       <title>Spanish</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/spanish/</link>
+      <link>http://localhost:1313/tags/spanish/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/spanish/</guid>
+      <guid>http://localhost:1313/tags/spanish/</guid>
       <description></description>
     </item>
     <item>
       <title>History of Oil</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/history-of-oil/</link>
+      <link>http://localhost:1313/tags/history-of-oil/</link>
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/history-of-oil/</guid>
+      <guid>http://localhost:1313/tags/history-of-oil/</guid>
       <description></description>
     </item>
     <item>
       <title>Mediterranean World</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/mediterranean-world/</link>
+      <link>http://localhost:1313/tags/mediterranean-world/</link>
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/mediterranean-world/</guid>
+      <guid>http://localhost:1313/tags/mediterranean-world/</guid>
       <description></description>
     </item>
     <item>
       <title>Oleic Science</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/oleic-science/</link>
+      <link>http://localhost:1313/tags/oleic-science/</link>
       <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/oleic-science/</guid>
+      <guid>http://localhost:1313/tags/oleic-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Canine Pulmonary Efficiency</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/canine-pulmonary-efficiency/</link>
+      <link>http://localhost:1313/tags/canine-pulmonary-efficiency/</link>
       <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/canine-pulmonary-efficiency/</guid>
+      <guid>http://localhost:1313/tags/canine-pulmonary-efficiency/</guid>
       <description></description>
     </item>
     <item>
       <title>Canine Science</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/canine-science/</link>
+      <link>http://localhost:1313/tags/canine-science/</link>
       <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/canine-science/</guid>
+      <guid>http://localhost:1313/tags/canine-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Experimental Zoology</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/experimental-zoology/</link>
+      <link>http://localhost:1313/tags/experimental-zoology/</link>
       <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/experimental-zoology/</guid>
+      <guid>http://localhost:1313/tags/experimental-zoology/</guid>
       <description></description>
     </item>
     <item>
       <title>Sausage Dogs</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/sausage-dogs/</link>
+      <link>http://localhost:1313/tags/sausage-dogs/</link>
       <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/sausage-dogs/</guid>
+      <guid>http://localhost:1313/tags/sausage-dogs/</guid>
       <description></description>
     </item>
     <item>
       <title>Zoology</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/zoology/</link>
+      <link>http://localhost:1313/tags/zoology/</link>
       <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/zoology/</guid>
+      <guid>http://localhost:1313/tags/zoology/</guid>
       <description></description>
     </item>
     <item>
       <title>Portugese</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/portugese/</link>
+      <link>http://localhost:1313/tags/portugese/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/portugese/</guid>
+      <guid>http://localhost:1313/tags/portugese/</guid>
       <description></description>
     </item>
     <item>
       <title>Celtic Languages</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/celtic-languages/</link>
+      <link>http://localhost:1313/tags/celtic-languages/</link>
       <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/celtic-languages/</guid>
+      <guid>http://localhost:1313/tags/celtic-languages/</guid>
       <description></description>
     </item>
     <item>
       <title>Irish</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/irish/</link>
+      <link>http://localhost:1313/tags/irish/</link>
       <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/irish/</guid>
+      <guid>http://localhost:1313/tags/irish/</guid>
       <description></description>
     </item>
     <item>
       <title>Language Modernization</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/language-modernization/</link>
+      <link>http://localhost:1313/tags/language-modernization/</link>
       <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/language-modernization/</guid>
+      <guid>http://localhost:1313/tags/language-modernization/</guid>
       <description></description>
     </item>
     <item>
       <title>Profanity</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/profanity/</link>
+      <link>http://localhost:1313/tags/profanity/</link>
       <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/tags/profanity/</guid>
+      <guid>http://localhost:1313/tags/profanity/</guid>
       <description></description>
     </item>
   </channel>
