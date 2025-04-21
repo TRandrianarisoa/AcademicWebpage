@@ -5,146 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021658f4-fe84-4703-894d-5d7ab3fc5f05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/publications.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/research_interests.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/short_bio.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/core/theme-vars.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/core/theme-vars.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/location.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/location.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/officehours.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/teaching.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/papers/paper1/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/papers/paper1/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/books/book1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/books/book1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/books/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/books/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/books/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/books/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/books/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/books/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course1/ps1.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course1/ps1.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course1/quiz1.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course1/quiz1.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course1/quiz2.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course1/quiz2.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course2/notes3.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/notes3.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course2/notes4.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/notes4.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course2/ps3.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/ps3.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course2/ps4.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/ps4.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course2/quiz3.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/quiz3.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course2/quiz4.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/quiz4.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course2/slides1.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/slides1.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course2/slides2.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/slides2.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course2/slides3.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/slides3.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/course2/slides4.pdf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/course2/slides4.pdf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/courses/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/courses/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/cv.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/data1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/data1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/short_bio.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/short_bio.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/location/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/location/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/officehours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/officehours/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/papers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/papers/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/papers/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/papers/paper1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/paper1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/papers/paper2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/paper2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/papers/paper3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/papers/paper3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/academia/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/academia/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/academia/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/academia/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/academia/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/academia/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-pulmonary-efficiency/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/canine-science/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-science/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/canine-science/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-science/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/canine-science/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/canine-science/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/celtic-languages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/celtic-languages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/celtic-languages/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/celtic-languages/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/celtic-languages/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/celtic-languages/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/dataset/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/dataset/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/dataset/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/dataset/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/dataset/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/dataset/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/experimental-psychology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-psychology/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/experimental-psychology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-psychology/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/experimental-psychology/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-psychology/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/experimental-zoology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-zoology/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/experimental-zoology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-zoology/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/experimental-zoology/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/experimental-zoology/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/french/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/french/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/french/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/french/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/french/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/french/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/history-of-oil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/history-of-oil/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/history-of-oil/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/history-of-oil/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/history-of-oil/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/history-of-oil/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/inner-hedgehog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/inner-hedgehog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/inner-hedgehog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/inner-hedgehog/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/inner-hedgehog/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/inner-hedgehog/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/invasive-thoughts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/invasive-thoughts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/invasive-thoughts/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/invasive-thoughts/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/invasive-thoughts/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/invasive-thoughts/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/irish/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irish/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/irish/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irish/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/irish/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irish/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/irregular-verbs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irregular-verbs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/irregular-verbs/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irregular-verbs/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/irregular-verbs/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/irregular-verbs/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/italian/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/italian/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/italian/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/italian/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/italian/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/italian/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/language-modernization/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/language-modernization/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/language-modernization/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/language-modernization/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/language-modernization/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/language-modernization/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/mediterranean-world/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/mediterranean-world/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/mediterranean-world/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/mediterranean-world/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/mediterranean-world/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/mediterranean-world/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/oleic-science/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/oleic-science/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/oleic-science/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/oleic-science/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/oleic-science/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/oleic-science/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/philology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/philology/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/philology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/philology/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/philology/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/philology/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/portugese/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portugese/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/portugese/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portugese/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/portugese/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portugese/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/portuguese/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portuguese/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/portuguese/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portuguese/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/portuguese/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/portuguese/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/profanity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/profanity/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/profanity/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/profanity/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/profanity/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/profanity/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/python/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/python/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/python/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/python/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/python/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/romance-languages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/romance-languages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/romance-languages/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/romance-languages/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/romance-languages/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/romance-languages/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/sausage-dogs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/sausage-dogs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/sausage-dogs/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/sausage-dogs/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/sausage-dogs/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/sausage-dogs/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/simulations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/simulations/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/simulations/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/simulations/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/simulations/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/simulations/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/social-psychology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/social-psychology/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/social-psychology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/social-psychology/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/social-psychology/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/social-psychology/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/spanish/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/spanish/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/spanish/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/spanish/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/spanish/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/spanish/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/zoology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/zoology/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/zoology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/zoology/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/zoology/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/zoology/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/cv.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/core/theme-vars.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod/assets/css/core/theme-vars.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/index_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/index_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/short_bio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/short_bio/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732574444520</updated>
-      <workItem from="1745241236548" duration="14669000" />
+      <workItem from="1745241236548" duration="15975000" />
     </task>
     <servers />
   </component>
