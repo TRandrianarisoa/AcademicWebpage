@@ -1,8 +1,12 @@
 # Short Biography
 
-I am a Postdoctoral Fellow in the [Department of Computer & Mathematical Sciences](https://utsc.utoronto.ca/cms/)   at the University of Toronto at Scarborough (UTSC), working with [Daniel Roy](http://danroy.org). I completed my PhD in Statistics at [Sorbonne Université](https://www.sorbonne-universite.fr/en) (Paris, France), where I worked in the
+I am currently a tenure-track Assistant Professor in Statistics at the [Department of Computer & Mathematical Sciences](https://utsc.utoronto.ca/cms/), 
+University of Toronto Scarborough, and the [Department of Statistical Sciences](https://www.statistics.utoronto.ca/), University of Toronto (since September 2025).
+
+Previously, I was a Postdoctoral Fellow in the same department, working with [Daniel Roy](http://danroy.org). Before joining the UofT,
+I was a Postdoctoral researcher at [BIDSA](https://bidsa.unibocconi.eu), [Bocconi University](https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/) (Milan, Italy), mentored by [Botond Szabó](https://botondszabo.com).
+I completed my PhD in Statistics at [Sorbonne Université](https://www.sorbonne-universite.fr/en) (Paris, France), where I worked in the
 [LPSM](https://www.lpsm.paris) lab under the supervision of [Ismaël Castillo](https://perso.lpsm.paris/~castillo/). 
-Before joining the UoT, I was a Postdoctoral researcher at [BIDSA](https://bidsa.unibocconi.eu), [Bocconi University](https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/) (Milan, Italy) working with [Botond Szabó](https://botondszabo.com).
 
 My PhD manuscript can be found
 [here](https://hal.archives-ouvertes.fr/view/index/docid/3890739).

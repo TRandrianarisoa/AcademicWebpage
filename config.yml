@@ -27,8 +27,8 @@ menu:
  #         weight: 6
 
 params:
-    description: "I am a Postdoctoral Fellow in the [Department of Computer & Mathematical Sciences](https://utsc.utoronto.ca/cms/) 
-    at the University of Toronto at Scarborough (UTSC)."
+    description: "I am a tenure-track Assistant Professor in Statistics 
+    at the University of Toronto."
     author: Thibault Randrianarisoa
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -54,8 +54,7 @@ params:
     profileMode:
           enabled: true
           title: Thibault Randrianarisoa
-          subtitle: "I am a Postdoctoral Fellow in the [Department of Computer & Mathematical Sciences](https://utsc.utoronto.ca/cms/) 
-          at the University of Toronto at Scarborough (UTSC)."
+          subtitle: "I am a tenure-track Assistant Professor in Statistics at the University of Toronto."
           imageUrl: "avatar.jpg"
           imageWidth: 300
           imageHeight: 250

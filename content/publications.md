@@ -6,11 +6,15 @@ description: "A current list of publications involving Thibault Randrianarisoa."
 ---
 
 ## Working Papers
-Thibault Randrianarisoa, Lukas Steinberger and Botond Szabó\
-**Towards multi-purpose locally differentially private synthetic data release via spline
-wavelet plug-in estimation**
+Thibault Randrianarisoa and Daniel Roy\
+**On the wide-limit of variational posteriors of Bayesian Neural Networks**
 
 ## Preprints
+Thibault Randrianarisoa, Lukas Steinberger and Botond Szabó\
+**Towards multi-purpose locally differentially private synthetic data release via spline
+wavelet plug-in estimation**\
+[Preprint](https://arxiv.org/pdf/2508.13969)
+
 Ismaël Castillo and Thibault Randrianarisoa\
 **Deep Horseshoe Gaussian Processes**\
 Accepted at *The Annals of Statistics*.\
