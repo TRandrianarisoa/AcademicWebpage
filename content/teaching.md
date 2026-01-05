@@ -10,13 +10,13 @@ description: "Schedule and location for T. Randrianarisoa's office hours."
 --- 
 #### Schedule
 
-Office hours are held on Thursdays from 1:30–3:30 p.m. and on Tuesdays from 3:45–4:45p.m.
+Office hours are held on Thursday 10am–1pm @ IA 4064 (STAD91) and Tuesday 9:30-11:30 @ UY 9179 (STA414/STA2014)
 
 ---
 
 #### Location
 
-By default meetings are in my office (IA 4059). I am also available for virtual meetings on Zoom.
+By default, meetings are in my office (IA 4059/UY 9179).
 
 ---
 
@@ -25,7 +25,13 @@ By default meetings are in my office (IA 4059). I am also available for virtual 
 --- 
 #### Instructor (University of Toronto, Scarborough campus)
 
-* [STAB52](https://utsc.calendar.utoronto.ca/course/stab52h3): An Introduction to Probability (Fall 2020).
+* [STAD91](/courses/stad91/): Bayesian Statistical Analysis (Winter 2026)
+* [STAB52](https://utsc.calendar.utoronto.ca/course/stab52h3): An Introduction to Probability (Fall 2024).
+
+--- 
+#### Instructor (University of Toronto, St. George campus)
+
+* [STA 414/2104](/courses/sta414/): Statistical Methods for Machine Learning II (Winter 2026)
 
 ---
 #### Instructor at Bocconi University (2023-2024) 

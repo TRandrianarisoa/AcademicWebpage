@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>STA414 / STA2104 Winter 2026 - Statistical Methods for Machine Learning II | Thibault Randrianarisoa</title>
+<meta name="keywords" content="Probabilistic Models, DAGs, Decision Theory, Exact Inference, Message Passing, Hidden Markov Models, Sampling Methods, MCMC, Variational Inference, Neural Networks, Gaussian Processes, Embeddings, Attention, Transformers, Variational Autoencoders, Diffusion Models">
+<meta name="description" content="This undergraduate/graduate course presents some modern techniques for probabilistic machine learning.">
+<meta name="author" content="Thibault Randrianarisoa">
+<link rel="canonical" href="http://localhost:1313/courses/stad91/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9f14d0c248daea29ce935b53a3e41f3fab665ebe18ec26af2ba02a16ac629ad0.css" integrity="sha256-nxTQwkja6inOk1tTo&#43;QfP6tmXr4Y7CavK6AqFqximtA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/courses/stad91/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="STA414 / STA2104 Winter 2026 - Statistical Methods for Machine Learning II" />
+<meta property="og:description" content="This undergraduate/graduate course presents some modern techniques for probabilistic machine learning." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/courses/stad91/" />
+<meta property="og:image" content="http://localhost:1313/Sta414.png" /><meta property="article:section" content="courses" />
+<meta property="article:published_time" content="2026-01-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-01-05T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/Sta414.png" />
+<meta name="twitter:title" content="STA414 / STA2104 Winter 2026 - Statistical Methods for Machine Learning II"/>
+<meta name="twitter:description" content="This undergraduate/graduate course presents some modern techniques for probabilistic machine learning."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Courses",
+      "item": "http://localhost:1313/courses/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "STA414 / STA2104 Winter 2026 - Statistical Methods for Machine Learning II",
+      "item": "http://localhost:1313/courses/stad91/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "STA414 / STA2104 Winter 2026 - Statistical Methods for Machine Learning II",
+  "name": "STA414 \/ STA2104 Winter 2026 - Statistical Methods for Machine Learning II",
+  "description": "This undergraduate/graduate course presents some modern techniques for probabilistic machine learning.",
+  "keywords": [
+    "Probabilistic Models", "DAGs", "Decision Theory", "Exact Inference", "Message Passing", "Hidden Markov Models", "Sampling Methods", "MCMC", "Variational Inference", "Neural Networks", "Gaussian Processes", "Embeddings", "Attention", "Transformers", "Variational Autoencoders", "Diffusion Models"
+  ],
+  "articleBody": " Introduction The language of probability allows us to coherently and automatically account for uncertainty. This course will teach you how to build, fit, and do inference in probabilistic models. These models let us generate novel images and text, find meaningful latent representations of data, take advantage of large unlabeled datasets, and even let us do analogical reasoning automatically. It will offer a broad view of model-building and optimization techniques that are based on probabilistic building blocks which will serve as a foundation for more advanced machine learning courses.\nMore details can be found in syllabus, quercus and piazza (Access Code: n0px27jcbmb).\nOutcomes What you will learn:\nStandard statistical learning algorithms: When to use them, and their limitations. The main elements of probabilistic models: Distributions, expectations, latent variables, neural networks, and how to combine them. Standard computational tools: Monte Carlo, Stochastic optimization, Variational Inference, and automatic differentiation. Skill Outcomes:\nResearch Stream:\nStudents will be able to mathematically derive custom model architectures and extend existing frameworks to handle different data structures. Identify when exact inference is feasible versus when approximate methods are required based on the characteristics of the model. Applied Stream:\nEvaluate the “cost of entry” for a project by estimating how much data and compute are required to reach target performance. Apply the “Linear-to-Complex” modeling workflow, starting with simple baselines to justify the use of more resource-intensive nonlinear models. Announcements Lectures begin on Jan 6! Instructor Thibault Randrianarisoa, Office: UY 9179 Email: t.randrianarisoa@utoronto.ca (put “STA414” in the subject) Office hours: Tuesday 9:30-11:30 Teaching Assistants Yichen Ji, Shengzhuo Li, Liam Welsh, Yan Zhang, Amir Reza Peimani\nThey will handle all questions related to homework assigments, the midterm and the final exam. Email: TBA (in the subject of the email indicate the scope: HW1, HW2, general, etc) Time \u0026 Location Tuesday, 6:00 PM - 9:00 PM\nIn Person: MC 102\nSuggested Reading No required textbooks. Some suggested readings are:\n(PRML) Christopher M. Bishop (2006) Pattern Recognition and Machine Learning (DL) Ian Goodfellow, Yoshua Bengio and Aaron Courville (2016), Deep Learning (MLPP) Kevin P. Murphy (2013), Machine Learning: A Probabilistic Perspective (ESL) Trevor Hastie, Robert Tibshirani, Jerome Friedman (2009) The Elements of Statistical Learning (ISL) Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2023) Introduction to Statistical Learning (ITIL) David MacKay (2003) Information Theory, Inference, and Learning Algorithms (PML1) Kevin P. Murphy (2022), Probabilistic Machine Learning: An Introduction (PML2) Kevin P. Murphy (2023), Probabilistic Machine Learning: Advanced topics Lectures and (tentative) timeline Week Lectures Suggested reading Tutorials Video Timeline Week 1 5-11 January Introduction / Probabilistic Models PML1 1.1-1.3 Week 2 12-18 January Directed Graphical Models / Decision theory Week 3 19-25 January Exact inference / Message Passing Week 4 26 January-1 February Hidden Markov Models / Monte-carlo Methods Week 5 2–8 February MCMC Week 6 9–15 February Variational Inference Week 7 16-22 February Reading Week Week 8 23 February – 1 March Midterm Week 9 2–8 March Neural Networks Week 109–15 March Gaussian Processes Week 11 16–22 March Embeddings/Attention/Transformers Week 12 23–29 March Janurary Variational Autoencoders Week 13 5-11 Janurary Diffusion Models Homeworks Homework # Out Due TA Office Hours Solutions Assignment 1 TBD TBD TBD Assignment 2 TBD TBD TBD Computing Resources For the homework assignments, we will primarily use Python, and libraries such as NumPy, SciPy, and scikit-learn. You have two options:\nThe easiest option is run everything on Google Colab. Alternatively, you can install everything yourself on your own machine. If you don’t already have python, install using Anaconda. Use pip to install the required packages pip install scipy numpy autograd matplotlib jupyter sklearn For those unfamiliar with Numpy, there are many good resources, e.g. Numpy tutorial and Numpy Quickstart. ",
+  "wordCount" : "611",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/Sta414.png","datePublished": "2026-01-05T00:00:00Z",
+  "dateModified": "2026-01-05T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Thibault Randrianarisoa"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/courses/stad91/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Thibault Randrianarisoa",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Thibault Randrianarisoa">
+                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Thibault Randrianarisoa</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/teaching/" title="Teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      STA414 / STA2104 Winter 2026 - Statistical Methods for Machine Learning II
+    </h1>
+    <div class="post-meta"><span title='2026-01-05 00:00:00 +0000 UTC'>January 2026</span>&nbsp;&middot;&nbsp;Thibault Randrianarisoa
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#outcomes">Outcomes</a></li>
+    <li><a href="#announcements">Announcements</a></li>
+    <li><a href="#instructor">Instructor</a></li>
+    <li><a href="#teaching-assistants">Teaching Assistants</a></li>
+    <li><a href="#time--location">Time &amp; Location</a></li>
+    <li><a href="#suggested-reading">Suggested Reading</a></li>
+    <li><a href="#lectures-and-tentative-timeline">Lectures and (tentative) timeline</a></li>
+    <li><a href="#homeworks">Homeworks</a></li>
+    <li><a href="#computing-resources">Computing Resources</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p><img loading="lazy" src="Sta414.png" alt="Alt text"  />
+</p>
+<h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>The language of probability allows us to coherently and automatically account for uncertainty. This course will teach
+you how to build, fit, and do inference in probabilistic models. These models let us generate novel images and text, find
+meaningful latent representations of data, take advantage of large unlabeled datasets, and even let us do analogical
+reasoning automatically. It will offer a broad view of model-building and optimization techniques that are based on
+probabilistic building blocks which will serve as a foundation for more advanced machine learning courses.</p>
+<p>More details can be found in <a href="">syllabus</a>, <a href="">quercus</a> and <a href="https://piazza.com/utoronto.ca/winter2026/stad91h3" target="_blank">piazza</a>
+(Access Code: n0px27jcbmb).</p>
+<h2 id="outcomes">Outcomes<a hidden class="anchor" aria-hidden="true" href="#outcomes">#</a></h2>
+<ul>
+<li>
+<p>What you will learn:</p>
+<ul>
+<li>Standard statistical learning algorithms: When to use them, and their limitations.</li>
+<li>The main elements of probabilistic models: Distributions, expectations, latent variables, neural networks, and how to combine them.</li>
+<li>Standard computational tools: Monte Carlo, Stochastic optimization, Variational Inference, and automatic differentiation.</li>
+</ul>
+</li>
+<li>
+<p>Skill Outcomes:</p>
+<ul>
+<li>
+<p>Research Stream:</p>
+<ul>
+<li>Students will be able to mathematically derive custom model architectures and extend existing frameworks to handle different data structures.</li>
+<li>Identify when exact inference is feasible versus when approximate methods are required based on the characteristics of the model.</li>
+</ul>
+</li>
+<li>
+<p>Applied Stream:</p>
+<ul>
+<li>Evaluate the &ldquo;cost of entry&rdquo; for a project by estimating how much data and compute are required to reach target performance.</li>
+<li>Apply the &ldquo;Linear-to-Complex&rdquo; modeling workflow, starting with simple baselines to justify the use of more resource-intensive nonlinear models.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="announcements">Announcements<a hidden class="anchor" aria-hidden="true" href="#announcements">#</a></h2>
+<ul>
+<li>Lectures begin on Jan 6!</li>
+</ul>
+<h2 id="instructor">Instructor<a hidden class="anchor" aria-hidden="true" href="#instructor">#</a></h2>
+<ul>
+<li>Thibault Randrianarisoa, Office: UY 9179
+<ul>
+<li>Email: <a href="mailto:t.randrianarisoa@utoronto.ca">t.randrianarisoa@utoronto.ca</a> (put “STA414” in the subject)</li>
+<li>Office hours: Tuesday 9:30-11:30</li>
+</ul>
+</li>
+</ul>
+<h2 id="teaching-assistants">Teaching Assistants<a hidden class="anchor" aria-hidden="true" href="#teaching-assistants">#</a></h2>
+<p>Yichen Ji, Shengzhuo Li, Liam Welsh, Yan Zhang, Amir Reza Peimani</p>
+<ul>
+<li>They will handle all questions related to homework assigments, the midterm and the final exam.</li>
+<li>Email: TBA (in the subject of the email indicate the scope: HW1, HW2, general, etc)</li>
+</ul>
+<h2 id="time--location">Time &amp; Location<a hidden class="anchor" aria-hidden="true" href="#time--location">#</a></h2>
+<p>Tuesday, 6:00 PM - 9:00 PM</p>
+<p>In Person: MC 102</p>
+<h2 id="suggested-reading">Suggested Reading<a hidden class="anchor" aria-hidden="true" href="#suggested-reading">#</a></h2>
+<p>No required textbooks. Some suggested readings are:</p>
+<ul>
+<li>(PRML) Christopher M. Bishop (2006) <a href="https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/" target="_blank">Pattern Recognition and Machine Learning</a></li>
+<li>(DL) Ian Goodfellow, Yoshua Bengio and Aaron Courville (2016), <a href="https://www.deeplearningbook.org/" target="_blank">Deep Learning</a></li>
+<li>(MLPP) Kevin P. Murphy (2013), <a href="https://probml.github.io/pml-book/book0.html" target="_blank">Machine Learning: A Probabilistic Perspective</a></li>
+<li>(ESL) Trevor Hastie, Robert Tibshirani, Jerome Friedman (2009) <a href="https://hastie.su.domains/ElemStatLearn/" target="_blank">The Elements of Statistical Learning</a></li>
+<li>(ISL) Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2023) <a href="https://www.statlearning.com/" target="_blank">Introduction to Statistical Learning</a></li>
+<li>(ITIL) David MacKay (2003) <a href="https://www.inference.org.uk/mackay/itila/book.html" target="_blank">Information Theory, Inference, and Learning Algorithms</a></li>
+<li>(PML1) Kevin P. Murphy (2022), <a href="https://probml.github.io/pml-book/book1.html" target="_blank">Probabilistic Machine Learning: An Introduction</a></li>
+<li>(PML2) Kevin P. Murphy (2023), <a href="https://probml.github.io/pml-book/book2.html" target="_blank">Probabilistic Machine Learning: Advanced topics</a></li>
+</ul>
+<h2 id="lectures-and-tentative-timeline">Lectures and (tentative) timeline<a hidden class="anchor" aria-hidden="true" href="#lectures-and-tentative-timeline">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Week</th>
+          <th style="text-align: left">Lectures</th>
+          <th style="text-align: left">Suggested reading</th>
+          <th style="text-align: left">Tutorials</th>
+          <th style="text-align: left">Video</th>
+          <th style="text-align: left">Timeline</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Week 1 <br/>5-11 January<br/></td>
+          <td style="text-align: left">Introduction / Probabilistic Models</td>
+          <td style="text-align: left">PML1 1.1-1.3</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 2 <br/>12-18 January<br/></td>
+          <td style="text-align: left">Directed Graphical Models / Decision theory</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 3 <br/>19-25 January<br/></td>
+          <td style="text-align: left">Exact inference / Message Passing</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 4 <br/>26 January-1 February<br/></td>
+          <td style="text-align: left">Hidden Markov Models / Monte-carlo Methods</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 5 <br/>2–8 February<br/></td>
+          <td style="text-align: left">MCMC</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 6 <br/>9–15 February<br/></td>
+          <td style="text-align: left">Variational Inference</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 7 <br/>16-22 February<br/></td>
+          <td style="text-align: left"><strong>Reading Week</strong></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 8 <br/>23 February – 1 March<br/></td>
+          <td style="text-align: left"><strong>Midterm</strong></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 9 <br/>2–8 March<br/></td>
+          <td style="text-align: left">Neural Networks</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 10<br/>9–15 March<br/></td>
+          <td style="text-align: left">Gaussian Processes</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 11 <br/>16–22 March<br/></td>
+          <td style="text-align: left">Embeddings/Attention/Transformers</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 12 <br/>23–29 March Janurary<br/></td>
+          <td style="text-align: left">Variational Autoencoders</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 13 <br/>5-11 Janurary<br/></td>
+          <td style="text-align: left">Diffusion Models</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="homeworks">Homeworks<a hidden class="anchor" aria-hidden="true" href="#homeworks">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Homework #</th>
+          <th style="text-align: left">Out</th>
+          <th style="text-align: left">Due</th>
+          <th style="text-align: left">TA Office Hours</th>
+          <th style="text-align: left">Solutions</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Assignment 1</strong></td>
+          <td style="text-align: left">TBD</td>
+          <td style="text-align: left">TBD</td>
+          <td style="text-align: left">TBD</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Assignment 2</strong></td>
+          <td style="text-align: left">TBD</td>
+          <td style="text-align: left">TBD</td>
+          <td style="text-align: left">TBD</td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="computing-resources">Computing Resources<a hidden class="anchor" aria-hidden="true" href="#computing-resources">#</a></h2>
+<p>For the homework assignments, we will primarily use Python, and libraries such as <a href="https://numpy.org/" target="_blank">NumPy</a>,
+<a href="https://scipy.org/" target="_blank">SciPy</a>, and <a href="https://scikit-learn.org/stable/" target="_blank">scikit-learn</a>. You have two options:</p>
+<ul>
+<li>The easiest option is run everything on <a href="https://colab.research.google.com/" target="_blank">Google Colab</a>.</li>
+<li>Alternatively, you can install everything yourself on your own machine.
+<ul>
+<li>If you don’t already have python, install using <a href="https://www.anaconda.com/download" target="_blank">Anaconda</a>.</li>
+<li>Use pip to install the required packages <code>pip install scipy numpy autograd matplotlib jupyter sklearn</code></li>
+</ul>
+</li>
+<li>For those unfamiliar with Numpy, there are many good resources, e.g. <a href="https://realpython.com/numpy-tutorial/" target="_blank">Numpy tutorial</a>
+and <a href="https://numpy.org/doc/stable/user/quickstart.html" target="_blank">Numpy Quickstart</a>.</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/probabilistic-models/">Probabilistic Models</a></li>
+      <li><a href="http://localhost:1313/tags/dags/">DAGs</a></li>
+      <li><a href="http://localhost:1313/tags/decision-theory/">Decision Theory</a></li>
+      <li><a href="http://localhost:1313/tags/exact-inference/">Exact Inference</a></li>
+      <li><a href="http://localhost:1313/tags/message-passing/">Message Passing</a></li>
+      <li><a href="http://localhost:1313/tags/hidden-markov-models/">Hidden Markov Models</a></li>
+      <li><a href="http://localhost:1313/tags/sampling-methods/">Sampling Methods</a></li>
+      <li><a href="http://localhost:1313/tags/mcmc/">MCMC</a></li>
+      <li><a href="http://localhost:1313/tags/variational-inference/">Variational Inference</a></li>
+      <li><a href="http://localhost:1313/tags/neural-networks/">Neural Networks</a></li>
+      <li><a href="http://localhost:1313/tags/gaussian-processes/">Gaussian Processes</a></li>
+      <li><a href="http://localhost:1313/tags/embeddings/">Embeddings</a></li>
+      <li><a href="http://localhost:1313/tags/attention/">Attention</a></li>
+      <li><a href="http://localhost:1313/tags/transformers/">Transformers</a></li>
+      <li><a href="http://localhost:1313/tags/variational-autoencoders/">Variational Autoencoders</a></li>
+      <li><a href="http://localhost:1313/tags/diffusion-models/">Diffusion Models</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="http://localhost:1313/">Thibault Randrianarisoa</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>
