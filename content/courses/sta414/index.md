@@ -46,7 +46,7 @@ probabilistic building blocks which will serve as a foundation for more advanced
 
 More details can be found in [syllabus](), [quercus](https://q.utoronto.ca/courses/427639) 
 and [piazza](https://piazza.com/utoronto.ca/winter2026/sta414sta2014/home)
-(Access Code: n0px27jcbmb).
+(Access Code: r7anu46950q).
 
 
 [//]: # (## Outcomes)
