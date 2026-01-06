@@ -6,7 +6,7 @@
     <description>Recent content in Portuguese on Thibault Randrianarisoa</description>
     <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/portuguese/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of Irregular Verbs Across Romance Languages</title>
@@ -14,13 +14,6 @@
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/data/data1/</guid>
       <description>This dataset contains all irregular verbs in known Romance languages.</description>
-    </item>
-    <item>
-      <title>Lectures at the Villa of Reduced Circumstances</title>
-      <link>http://localhost:1313/courses/course1/</link>
-      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/course1/</guid>
-      <description>This graduate course presents classical results in Romance philology.</description>
     </item>
   </channel>
 </rss>

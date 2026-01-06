@@ -9,11 +9,18 @@
     <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/probabilistic-models/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lectures at the Villa of Reduced Circumstances</title>
+      <title>STA414 / STA2104 Winter 2026 - Statistical Methods for Machine Learning II</title>
       <link>http://localhost:1313/courses/sta414/</link>
       <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/courses/sta414/</guid>
-      <description>This graduate course presents classical results in Romance philology.</description>
+      <description>This undergraduate/graduate course presents some modern techniques for probabilistic machine learning.</description>
+    </item>
+    <item>
+      <title>STA414 / STA2104 Winter 2026 - Statistical Methods for Machine Learning II</title>
+      <link>http://localhost:1313/courses/stad91/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/stad91/</guid>
+      <description>This undergraduate/graduate course presents some modern techniques for probabilistic machine learning.</description>
     </item>
   </channel>
 </rss>

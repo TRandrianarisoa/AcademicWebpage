@@ -1,5 +1,5 @@
 ---
-title: "STA414 / STA2104 Winter 2026 - Statistical Methods for Machine Learning II"
+title: "STAD91 Winter 2026 - Bayesian Statistical Inference"
 date: 2026-01-05
 lastmod: 2026-01-05
 #aliases: 
@@ -16,14 +16,13 @@ lastmod: 2026-01-05
 #    - /courses/stad91/quiz3.pdf
 #    - /courses/stad91/quiz4.pdf
 #    - /courses/sta414/ps1.pdf
-tags: ["Probabilistic Models", "DAGs", "Decision Theory", "Exact Inference", "Message Passing", "Hidden Markov Models",
-  "Sampling Methods", "MCMC", "Variational Inference", "Neural Networks", "Gaussian Processes", "Embeddings",
-  "Attention", "Transformers", "Variational Autoencoders", "Diffusion Models"]
+tags: ["Decision Theory", "Priors", "Posteriors", "Bayesian tests", "Model selection", "Sampling Algorithms", "Variational Bayes",
+       "Asymptotics", "Gaussian Processes", "High-dimensional models", "Dirichlet process"]
 author: "Thibault Randrianarisoa"
 description: "This undergraduate/graduate course presents some modern techniques for probabilistic machine learning." 
 summary: "The language of probability allows us to coherently and automatically account for uncertainty. This course will teach you how to build, fit, and do inference in probabilistic models. These models let us generate novel images and text, find meaningful latent representations of data, take advantage of large unlabeled datasets, and even let us do analogical reasoning automatically. It will offer a broad view of model-building and optimization techniques that are based on probabilistic building blocks which will serve as a foundation for more advanced machine learning courses." 
 cover:
-    image: "Sta414.png"
+    image: "stad91.png"
     alt: "PML"
     relative: false
 #editPost:
@@ -34,89 +33,104 @@ disableAnchoredHeadings: false
 
 ---
 
-![Alt text](Sta414.png)
+![Alt text](stad91.png)
 
 ## Introduction
 
-The language of probability allows us to coherently and automatically account for uncertainty. This course will teach 
-you how to build, fit, and do inference in probabilistic models. These models let us generate novel images and text, find
-meaningful latent representations of data, take advantage of large unlabeled datasets, and even let us do analogical 
-reasoning automatically. It will offer a broad view of model-building and optimization techniques that are based on 
-probabilistic building blocks which will serve as a foundation for more advanced machine learning courses.
+This course introduces the core concepts of Bayesian statistics, the theoretical properties of Bayesian estimators and 
+their use in decision-making under uncertainty. You will learn key Bayesian modelling approaches and advanced computational
+techniques tailored to the needs  and structure of different models.
 
-More details can be found in [syllabus](), [quercus]() and [piazza](https://piazza.com/utoronto.ca/winter2026/stad91h3)
+We begin with parametric models to introduce the core ideas of Bayesian analysis, covering prior specification, inference
+(point estimation, credible sets, and hypothesis testing), its decision-theoretic foundations, and key asymptotic results
+such as posterior consistency and the Bernstein–von Mises theorem. We will also study modern computational methods for
+Bayesian inference and introduce more advanced topics, including high-dimensional and nonparametric models. For these models,
+we will focus primarily on prior construction and on results about convergence rates and adaptation.
+
+More details can be found in [syllabus](STAD91H3S-2026_Winter_Syllabus-20260105.pdf), [quercus](https://q.utoronto.ca/courses/429453) and 
+[piazza](https://piazza.com/utoronto.ca/winter2026/stad91h3)
 (Access Code: n0px27jcbmb).
 
 
-## Outcomes
+[//]: # (## Outcomes)
 
-- What you will learn:
-  * Standard statistical learning algorithms: When to use them, and their limitations.
-  * The main elements of probabilistic models: Distributions, expectations, latent variables, neural networks, and how to combine them.
-  * Standard computational tools: Monte Carlo, Stochastic optimization, Variational Inference, and automatic differentiation.
+[//]: # ()
+[//]: # (- What you will learn:)
 
-- Skill Outcomes:
-  * Research Stream:
-    - Students will be able to mathematically derive custom model architectures and extend existing frameworks to handle different data structures.
-    - Identify when exact inference is feasible versus when approximate methods are required based on the characteristics of the model.
+[//]: # (  * Standard statistical learning algorithms: When to use them, and their limitations.)
 
-  * Applied Stream:
-    - Evaluate the "cost of entry" for a project by estimating how much data and compute are required to reach target performance.
-    - Apply the "Linear-to-Complex" modeling workflow, starting with simple baselines to justify the use of more resource-intensive nonlinear models.
+[//]: # (  * The main elements of probabilistic models: Distributions, expectations, latent variables, neural networks, and how to combine them.)
+
+[//]: # (  * Standard computational tools: Monte Carlo, Stochastic optimization, Variational Inference, and automatic differentiation.)
+
+[//]: # ()
+[//]: # (- Skill Outcomes:)
+
+[//]: # (  * Research Stream:)
+
+[//]: # (    - Students will be able to mathematically derive custom model architectures and extend existing frameworks to handle different data structures.)
+
+[//]: # (    - Identify when exact inference is feasible versus when approximate methods are required based on the characteristics of the model.)
+
+[//]: # ()
+[//]: # (  * Applied Stream:)
+
+[//]: # (    - Evaluate the "cost of entry" for a project by estimating how much data and compute are required to reach target performance.)
+
+[//]: # (    - Apply the "Linear-to-Complex" modeling workflow, starting with simple baselines to justify the use of more resource-intensive nonlinear models.)
 
 ## Announcements
 
-+ Lectures begin on Jan 6!
++ Lectures begin on Jan 8!
 
 ## Instructor
 
-- Thibault Randrianarisoa, Office: UY 9179
+- Thibault Randrianarisoa, Office: IA 4064
   - Email: t.randrianarisoa@utoronto.ca (put “STA414” in the subject)
-  - Office hours: Tuesday 9:30-11:30
+  - Office hours: Thursday 10am–1pm
 
 ## Teaching Assistants
-Yichen Ji, Shengzhuo Li, Liam Welsh, Yan Zhang, Amir Reza Peimani
+TBA
 
 * They will handle all questions related to homework assigments, the midterm and the final exam.
 * Email: TBA (in the subject of the email indicate the scope: HW1, HW2, general, etc)
 
 ## Time & Location
 
-Tuesday, 6:00 PM - 9:00 PM
+Thursday, 3:00 PM - 6:00 PM
 
-In Person: MC 102
+In Person: IA 1160
 
 ## Suggested Reading
 
-No required textbooks. Some suggested readings are:
+The course will be based on some of the content of the book _Bayesian Data Analysis_ (BDA) by
+Gelman, Carlin, Stern, Dunson, Vehtari & Rubin. It is freely available online on home page for
+the book https://sites.stat.columbia.edu/gelman/book/, which also contains additional material
+(lecture notes, code demo,...).
 
-* (PRML) Christopher M. Bishop (2006) [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/)
-* (DL) Ian Goodfellow, Yoshua Bengio and Aaron Courville (2016), [Deep Learning](https://www.deeplearningbook.org/)
-* (MLPP) Kevin P. Murphy (2013), [Machine Learning: A Probabilistic Perspective](https://probml.github.io/pml-book/book0.html)
-* (ESL) Trevor Hastie, Robert Tibshirani, Jerome Friedman (2009) [The Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/)
-* (ISL) Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2023) [Introduction to Statistical Learning](https://www.statlearning.com/)
-* (ITIL) David MacKay (2003) [Information Theory, Inference, and Learning Algorithms](https://www.inference.org.uk/mackay/itila/book.html)
-* (PML1) Kevin P. Murphy (2022), [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html)
-* (PML2) Kevin P. Murphy (2023), [Probabilistic Machine Learning: Advanced topics](https://probml.github.io/pml-book/book2.html)
+Additional suggested readings are:
 
+* (TBC) Christian P. Robert (2007) [The Bayesian Choice](https://errorstatistics.com/wp-content/uploads/2016/03/robert-20071.pdf)
+* (MCSM) Christian P. Robert and George Casella (2004) [Monte Carlo Statistical Methods](https://www.inference.org.uk/mackay/itila/book.html)
+* (BC) Jean-Michel Marin and Christian P. Robert. (2007), [Bayesian Core : A Practical Approach to Computational Bayesian Statistics](https://link.springer.com/book/10.1007/978-0-387-38983-7)
 
 ## Lectures and (tentative) timeline
 
-| Week                                   | Lectures                                    | Suggested reading | Tutorials | Video | Timeline |
-|:---------------------------------------|:--------------------------------------------|:------------------|:----------| :--- | :--- |
-| Week 1 <br/>5-11 January<br/>          | Introduction / Probabilistic Models         | PML1 1.1-1.3      |           | | |
-| Week 2 <br/>12-18 January<br/>         | Directed Graphical Models / Decision theory |                   |           | | |
-| Week 3 <br/>19-25 January<br/>         | Exact inference / Message Passing           |                   |           | | |
-| Week 4 <br/>26 January-1 February<br/> | Hidden Markov Models / Monte-carlo Methods  |                   |           | | |
-| Week 5 <br/>2–8 February<br/>          | MCMC                                        |                   |           | | |
-| Week 6 <br/>9–15 February<br/>         | Variational Inference                       |                   |           | | |
-| Week 7 <br/>16-22 February<br/>        | **Reading Week**                            |                   |           | | |
-| Week 8 <br/>23 February – 1 March<br/> | **Midterm**                                 |                   |           | | |
-| Week 9 <br/>2–8 March<br/>             | Neural Networks                             |                   |           | | |
-| Week 10<br/>9–15 March<br/>            | Gaussian Processes                          |                   |           | | |
-| Week 11 <br/>16–22 March<br/>          | Embeddings/Attention/Transformers           |                   |           | | |
-| Week 12 <br/>23–29 March Janurary<br/> | Variational Autoencoders                    |                   |           | | |
-| Week 13 <br/>5-11 Janurary<br/>        | Diffusion Models                            |                   |           | | |
+| Week                                   | Lectures                                                  | Suggested reading | Tutorials | Video | Timeline |
+|:---------------------------------------|:----------------------------------------------------------|:------------------|:----------| :--- | :--- |
+| Week 1 <br/>5-11 January<br/>          | Introduction and reminders of Statistics and Probability  |                   |           | | |
+| Week 2 <br/>12-18 January<br/>         | Choice of priors, Aspects of the posterior                |                   |           | | |
+| Week 3 <br/>19-25 January<br/>         | Decision theory                                           |                   |           | | |
+| Week 4 <br/>26 January-1 February<br/> | Bayesian tests, Model selection                           |                   |           | | |
+| Week 5 <br/>2–8 February<br/>          | Sampling Algorithms                                       |                   |           | | |
+| Week 6 <br/>9–15 February<br/>         | Variational Bayes                                         |                   |           | | |
+| Week 7 <br/>16-22 February<br/>        | **Reading Week**                                          |                   |           | | |
+| Week 8 <br/>23 February – 1 March<br/> | **Midterm**                                               |                   |           | | |
+| Week 9 <br/>2–8 March<br/>             | Asymptotic properties in parametric Bayesian models       |                   |           | | |
+| Week 10<br/>9–15 March<br/>            | Priors for high-dimensional models                        |                   |           | | |
+| Week 11 <br/>16–22 March<br/>          | Dirichlet process                                         |                   |           | | |
+| Week 12 <br/>23–29 March Janurary<br/> | Gaussian processes                                        |                   |           | | |
+| Week 13 <br/>5-11 Janurary<br/>        | Asymptotics in Bayesian nonparametrics                    |                   |           | | |
 
 ## Homeworks
 

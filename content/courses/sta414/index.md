@@ -44,25 +44,37 @@ meaningful latent representations of data, take advantage of large unlabeled dat
 reasoning automatically. It will offer a broad view of model-building and optimization techniques that are based on 
 probabilistic building blocks which will serve as a foundation for more advanced machine learning courses.
 
-More details can be found in [syllabus](), [quercus]() and [piazza](https://piazza.com/utoronto.ca/winter2026/stad91h3)
+More details can be found in [syllabus](), [quercus](https://q.utoronto.ca/courses/427639) 
+and [piazza](https://piazza.com/utoronto.ca/winter2026/sta414sta2014/home)
 (Access Code: n0px27jcbmb).
 
 
-## Outcomes
+[//]: # (## Outcomes)
 
-- What you will learn:
-  * Standard statistical learning algorithms: When to use them, and their limitations.
-  * The main elements of probabilistic models: Distributions, expectations, latent variables, neural networks, and how to combine them.
-  * Standard computational tools: Monte Carlo, Stochastic optimization, Variational Inference, and automatic differentiation.
+[//]: # ()
+[//]: # (- What you will learn:)
 
-- Skill Outcomes:
-  * Research Stream:
-    - Students will be able to mathematically derive custom model architectures and extend existing frameworks to handle different data structures.
-    - Identify when exact inference is feasible versus when approximate methods are required based on the characteristics of the model.
+[//]: # (  * Standard statistical learning algorithms: When to use them, and their limitations.)
 
-  * Applied Stream:
-    - Evaluate the "cost of entry" for a project by estimating how much data and compute are required to reach target performance.
-    - Apply the "Linear-to-Complex" modeling workflow, starting with simple baselines to justify the use of more resource-intensive nonlinear models.
+[//]: # (  * The main elements of probabilistic models: Distributions, expectations, latent variables, neural networks, and how to combine them.)
+
+[//]: # (  * Standard computational tools: Monte Carlo, Stochastic optimization, Variational Inference, and automatic differentiation.)
+
+[//]: # ()
+[//]: # (- Skill Outcomes:)
+
+[//]: # (  * Research Stream:)
+
+[//]: # (    - Students will be able to mathematically derive custom model architectures and extend existing frameworks to handle different data structures.)
+
+[//]: # (    - Identify when exact inference is feasible versus when approximate methods are required based on the characteristics of the model.)
+
+[//]: # ()
+[//]: # (  * Applied Stream:)
+
+[//]: # (    - Evaluate the "cost of entry" for a project by estimating how much data and compute are required to reach target performance.)
+
+[//]: # (    - Apply the "Linear-to-Complex" modeling workflow, starting with simple baselines to justify the use of more resource-intensive nonlinear models.)
 
 ## Announcements
 
