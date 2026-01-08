@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/asymptotics/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/attention/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bayesian-tests/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/courses/</loc>
@@ -17,6 +23,9 @@
     <loc>http://localhost:1313/tags/diffusion-models/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/dirichlet-process/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/embeddings/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -29,16 +38,31 @@
     <loc>http://localhost:1313/tags/hidden-markov-models/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/high-dimensional-models/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/mcmc/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/message-passing/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/model-selection/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/neural-networks/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/posteriors/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/priors/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/probabilistic-models/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sampling-algorithms/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/sampling-methods/</loc>
@@ -60,6 +84,9 @@
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/variational-autoencoders/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/variational-bayes/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/variational-inference/</loc>

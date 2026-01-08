@@ -44,7 +44,7 @@ meaningful latent representations of data, take advantage of large unlabeled dat
 reasoning automatically. It will offer a broad view of model-building and optimization techniques that are based on 
 probabilistic building blocks which will serve as a foundation for more advanced machine learning courses.
 
-More details can be found in [syllabus](), [quercus](https://q.utoronto.ca/courses/427639) 
+More details can be found in [syllabus](STA414H1S-2026_Winter_Syllabus-20260107.pdf), [quercus](https://q.utoronto.ca/courses/427639) 
 and [piazza](https://piazza.com/utoronto.ca/winter2026/sta414sta2014/home)
 (Access Code: r7anu46950q).
 
@@ -114,21 +114,21 @@ No required textbooks. Some suggested readings are:
 
 ## Lectures and (tentative) timeline
 
-| Week                                   | Lectures                                    | Suggested reading | Tutorials | Video | Timeline |
-|:---------------------------------------|:--------------------------------------------|:------------------|:----------| :--- | :--- |
-| Week 1 <br/>5-11 January<br/>          | Introduction / Probabilistic Models         | PML1 1.1-1.3      |           | | |
-| Week 2 <br/>12-18 January<br/>         | Directed Graphical Models / Decision theory |                   |           | | |
-| Week 3 <br/>19-25 January<br/>         | Exact inference / Message Passing           |                   |           | | |
-| Week 4 <br/>26 January-1 February<br/> | Hidden Markov Models / Monte-carlo Methods  |                   |           | | |
-| Week 5 <br/>2–8 February<br/>          | MCMC                                        |                   |           | | |
-| Week 6 <br/>9–15 February<br/>         | Variational Inference                       |                   |           | | |
-| Week 7 <br/>16-22 February<br/>        | **Reading Week**                            |                   |           | | |
-| Week 8 <br/>23 February – 1 March<br/> | **Midterm**                                 |                   |           | | |
-| Week 9 <br/>2–8 March<br/>             | Neural Networks                             |                   |           | | |
-| Week 10<br/>9–15 March<br/>            | Gaussian Processes                          |                   |           | | |
-| Week 11 <br/>16–22 March<br/>          | Embeddings/Attention/Transformers           |                   |           | | |
-| Week 12 <br/>23–29 March Janurary<br/> | Variational Autoencoders                    |                   |           | | |
-| Week 13 <br/>5-11 Janurary<br/>        | Diffusion Models                            |                   |           | | |
+| Week                                     | Lectures                                             | Suggested reading | Tutorials | Video | Timeline |
+|:-----------------------------------------|:-----------------------------------------------------|:------------------|:----------| :--- | :--- |
+| Week 1 <br/>5-11 January<br/>            | [Introduction / Probabilistic Models](PML_Lec01.pdf) | PML1 1.1-1.3      |           | | |
+| Week 2 <br/>12-18 January<br/>           | Directed Graphical Models / Decision theory          |                   |           | | |
+| Week 3 <br/>19-25 January<br/>           | Exact inference / Message Passing                    |                   |           | | |
+| Week 4 <br/>26 January-1 February<br/>   | Hidden Markov Models / Monte-carlo Methods           |                   |           | | |
+| Week 5 <br/>2–8 February<br/>            | MCMC                                                 |                   |           | | |
+| Week 6 <br/>9–15 February<br/>           | Variational Inference                                |                   |           | | |
+| Week 7 <br/>16-22 February<br/>          | **Reading Week**                                     |                   |           | | |
+| Week 8 <br/>23 February – 1 March<br/>   | **Midterm**                                          |                   |           | | |
+| Week 9 <br/>2–8 March<br/>               | Neural Networks                                      |                   |           | | |
+| Week 10<br/>9–15 March<br/>              | Gaussian Processes                                   |                   |           | | |
+| Week 11 <br/>16–22 March<br/>            | Embeddings/Attention/Transformers                    |                   |           | | |
+| Week 12 <br/>23–29 March<br/>            | Variational Autoencoders                             |                   |           | | |
+| Week 13 <br/>30 March - 5 April<br/>     | Diffusion Models                                     |                   |           | | |
 
 ## Homeworks
 
