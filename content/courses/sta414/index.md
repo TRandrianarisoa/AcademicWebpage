@@ -78,11 +78,12 @@ and [piazza](https://piazza.com/utoronto.ca/winter2026/sta414sta2014/home)
 
 ## Announcements
 
++ The Office Hours for Tuesday, January 13th are exceptionally pushed back to 9:45 am – 11:45 am.
 + Lectures begin on Jan 6!
 
 ## Instructor
 
-- Thibault Randrianarisoa, Office: UY 9179
+- Thibault Randrianarisoa, Office: UY 9087
   - Email: t.randrianarisoa@utoronto.ca (put “STA414” in the subject)
   - Office hours: Tuesday 9:30-11:30
 
@@ -114,21 +115,21 @@ No required textbooks. Some suggested readings are:
 
 ## Lectures and (tentative) timeline
 
-| Week                                     | Lectures                                                              | Suggested reading                 | Tutorials | Video | Timeline                                    |
-|:-----------------------------------------|:----------------------------------------------------------------------|:----------------------------------|:----------| :--- |:--------------------------------------------|
-| Week 1 <br/>5-11 January<br/>            | [Introduction / Probabilistic Models](PML_Lec01.pdf)                  | PML1 1.1-1.3 <br/>  PML1 3.4, 4.2 |           | | [Quizz 0 - Solutions](Quizz0_solutions.pdf) |
-| Week 2 <br/>12-18 January<br/>           | [Directed Graphical Models / Decision theory](PML_Lec02_class.pdf)    | PRML 1.5 <br/> PML2 4.2           |           | |                                             |
-| Week 3 <br/>19-25 January<br/>           | Exact inference / Message Passing                                     |                                   |           | |                                             |
-| Week 4 <br/>26 January-1 February<br/>   | Hidden Markov Models / Monte-carlo Methods                            |                                   |           | |                                             |
-| Week 5 <br/>2–8 February<br/>            | MCMC                                                                  |                                   |           | |                                             |
-| Week 6 <br/>9–15 February<br/>           | Variational Inference                                                 |                                   |           | |                                             |
-| Week 7 <br/>16-22 February<br/>          | **Reading Week**                                                      |                                   |           | |                                             |
-| Week 8 <br/>23 February – 1 March<br/>   | **Midterm**                                                           |                                   |           | |                                             |
-| Week 9 <br/>2–8 March<br/>               | Neural Networks                                                       |                                   |           | |                                             |
-| Week 10<br/>9–15 March<br/>              | Gaussian Processes                                                    |                                   |           | |                                             |
-| Week 11 <br/>16–22 March<br/>            | Embeddings/Attention/Transformers                                     |                                   |           | |                                             |
-| Week 12 <br/>23–29 March<br/>            | Variational Autoencoders                                              |                                   |           | |                                             |
-| Week 13 <br/>30 March - 5 April<br/>     | Diffusion Models                                                      |                                   |           | |                                             |
+| Week                                     | Lectures                                                                 | Suggested reading                                                                                                                                 | Tutorials               | Video | Timeline                                    |
+|:-----------------------------------------|:-------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------| :--- |:--------------------------------------------|
+| Week 1 <br/>5-11 January<br/>            | [Introduction / Probabilistic Models](PML_Lec01.pdf)                     | PML1 1.1-1.3 <br/>  PML1 3.4, 4.2                                                                                                                 | [Tutorial 1](tut01.pdf) | | [Quizz 0 - Solutions](Quizz0_solutions.pdf) |
+| Week 2 <br/>12-18 January<br/>           | [Directed Graphical Models / Decision theory](PML_Lec02_class.pdf)       | PRML 1.5 <br/> PML2 4.2                                                                                                                           |                         | |                                             |
+| Week 3 <br/>19-25 January<br/>           | Exact inference / Message Passing                                        | PML2 9.3, 9.5                                                                                                                                     |                         | |                                             |
+| Week 4 <br/>26 January-1 February<br/>   | Hidden Markov Models / Monte-carlo Methods                               | PML2 9.2.1, 29.2.1-29.2.4 <br/>  PML2 11.1-11.5                                                                                                   |                         | |                                             |
+| Week 5 <br/>2–8 February<br/>            | MCMC                                                                     | PML2 2.6, 12.1-12.6                                                                                                                               |                         | |                                             |
+| Week 6 <br/>9–15 February<br/>           | Variational Inference                                                    | PML2 5.1, 6.5.3, 10.1-10.3 <br/> [David Blei's review of VI](https://arxiv.org/pdf/1601.00670)                                                    |                         | |                                             |
+| Week 7 <br/>16-22 February<br/>          | **Reading Week**                                                         |                                                                                                                                                   |                         | |                                             |
+| Week 8 <br/>23 February – 1 March<br/>   | **Midterm**                                                              |                                                                                                                                                   |                         | |                                             |
+| Week 9 <br/>2–8 March<br/>               | Neural Networks                                                          | PML1 8.2, 13.1-13.3, 13.5.7 <br/> PML2 6.1-6.3 <br/> [Andrej Karpathy's recipe for training NNs](https://karpathy.github.io/2019/04/25/recipe/)   |                         | |                                             |
+| Week 10<br/>9–15 March<br/>              | Gaussian Processes                                                       | PML1 17.2 <br/> PML2 18.1-5, 18.7                                                                                                                 |                         | |                                             |
+| Week 11 <br/>16–22 March<br/>            | Embeddings/Attention/Transformers                                        | PML1 15.4-15.5 <br/> PML2 16.2.7, 16.3.5                                                                                                          |                         | |                                             |
+| Week 12 <br/>23–29 March<br/>            | Variational Autoencoders                                                 | PML2 16.3.3, 21                                                                                                                                   |                         | |                                             |
+| Week 13 <br/>30 March - 5 April<br/>     | Diffusion Models                                                         | PML2 25                                                                                                                                           |                         | |                                             |
 
 ## Homeworks
 
@@ -138,6 +139,10 @@ No required textbooks. Some suggested readings are:
 | **Assignment 2** | TBD  | TBD  | TBD  |  |
 | **Assignment 3** | TBD  | TBD  | TBD  |  |
 | **Assignment 4** | TBD  | TBD  | TBD |  |
+
+## Project
+
+Project guidelines for graduate students can be found [here](Project_guidelines.pdf).
 
 ## Computing Resources
 
