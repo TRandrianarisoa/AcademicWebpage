@@ -116,21 +116,21 @@ Additional suggested readings are:
 
 ## Lectures and (tentative) timeline
 
-| Week                                         | Lectures                                                                 | Suggested reading | Problems              | Timeline |
-|:---------------------------------------------|:-------------------------------------------------------------------------|:------------------|:----------------------|:---------|
-| Week 1 <br/>5-11 January<br/>                | [Introduction and reminders of Statistics and Probability](BS_Lec01.pdf) |                   | [PS1.pdf](PS1.pdf)    |          | 
-| Week 2 <br/>12-18 January<br/>               | Choice of priors, Aspects of the posterior                               |                   |                       |          | 
-| Week 3 <br/>19-25 January<br/>               | Decision theory                                                          |                   |                       |          | 
-| Week 4 <br/>26 January-1 February<br/>       | Bayesian tests, Model selection                                          |                   |                       |          | 
-| Week 5 <br/>2–8 February<br/>                | Sampling Algorithms                                                      |                   |                       |          | 
-| Week 6 <br/>9–15 February<br/>               | Variational Bayes                                                        |                   |                       |          | 
-| Week 7 <br/>16-22 February<br/>              | **Reading Week**                                                         |                   |                       |          | 
-| Week 8 <br/>23 February – 1 March<br/>       | **Midterm**                                                              |                   |                       |          | 
-| Week 9 <br/>2–8 March<br/>                   | Asymptotic properties in parametric Bayesian models                      |                   |                       |          | 
-| Week 10<br/>9–15 March<br/>                  | Priors for high-dimensional models                                       |                   |                       |          | 
-| Week 11 <br/>16–22 March<br/>                | Dirichlet process                                                        |                   |                       |          | 
-| Week 12 <br/>23–29 March <br/>               | Gaussian processes                                                       |                   |                       |          | 
-| Week 13 <br/>30 March - 5 April<br/>         | Asymptotics in Bayesian nonparametrics                                   |                   |                       |          | 
+| Week                                         | Lectures                                                                                                                  | Suggested reading | Problems              | Timeline |
+|:---------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------|:------------------|:----------------------|:---------|
+| Week 1 <br/>5-11 January<br/>                | [Introduction and reminders of Statistics and Probability](BS_Lec01.pdf) <br/> [Annotated slides](BS_Lec01_annotated.pdf) |                   | [PS1.pdf](PS1.pdf)    |          | 
+| Week 2 <br/>12-18 January<br/>               | [Choice of priors, Aspects of the posterior](BS_Lec02.pdf)                                                                                              |                   |                       |          | 
+| Week 3 <br/>19-25 January<br/>               | Decision theory                                                                                                           |                   |                       |          | 
+| Week 4 <br/>26 January-1 February<br/>       | Bayesian tests, Model selection                                                                                           |                   |                       |          | 
+| Week 5 <br/>2–8 February<br/>                | Sampling Algorithms                                                                                                       |                   |                       |          | 
+| Week 6 <br/>9–15 February<br/>               | Variational Bayes                                                                                                         |                   |                       |          | 
+| Week 7 <br/>16-22 February<br/>              | **Reading Week**                                                                                                          |                   |                       |          | 
+| Week 8 <br/>23 February – 1 March<br/>       | **Midterm**                                                                                                               |                   |                       |          | 
+| Week 9 <br/>2–8 March<br/>                   | Asymptotic properties in parametric Bayesian models                                                                       |                   |                       |          | 
+| Week 10<br/>9–15 March<br/>                  | Priors for high-dimensional models                                                                                        |                   |                       |          | 
+| Week 11 <br/>16–22 March<br/>                | Dirichlet process                                                                                                         |                   |                       |          | 
+| Week 12 <br/>23–29 March <br/>               | Gaussian processes                                                                                                        |                   |                       |          | 
+| Week 13 <br/>30 March - 5 April<br/>         | Asymptotics in Bayesian nonparametrics                                                                                    |                   |                       |          | 
 
 ## Homeworks
 
