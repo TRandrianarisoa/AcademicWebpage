@@ -78,6 +78,7 @@ and [piazza](https://piazza.com/utoronto.ca/winter2026/sta414sta2014/home)
 
 ## Announcements
 
++ Assignment 1 is out! it is due on Sunday, Feb 1st before 23:59PM.
 + The Office Hours for Tuesday, January 13th are exceptionally pushed back to 9:45 am – 11:45 am.
 + Lectures begin on Jan 6!
 
@@ -133,12 +134,12 @@ No required textbooks. Some suggested readings are:
 
 ## Homeworks
 
-| Homework #       | Out  | Due | TA Office Hours | Solutions |
-|:-----------------|:-----| :--- | :--- | :--- |
-| **Assignment 1** | TBD  | TBD  | TBD  |  |
-| **Assignment 2** | TBD  | TBD  | TBD  |  |
-| **Assignment 3** | TBD  | TBD  | TBD  |  |
-| **Assignment 4** | TBD  | TBD  | TBD |  |
+| Homework #                                                                                                | Out          | Due | TA Office Hours | Solutions |
+|:----------------------------------------------------------------------------------------------------------|:-------------|:----| :--- | :--- |
+| **[Assignment 1](https://colab.research.google.com/drive/1-7m9XTofij71W__FkhzDSyPrjWRAd6LP?usp=sharing)** | January 19th | Feb 1$^{st}$, at 23:59PM    | TBD  |  |
+| **Assignment 2**                                                                                          | TBD          | TBD | TBD  |  |
+| **Assignment 3**                                                                                          | TBD          | TBD | TBD  |  |
+| **Assignment 4**                                                                                          | TBD          | TBD | TBD |  |
 
 ## Project
 
