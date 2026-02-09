@@ -78,7 +78,9 @@ and [piazza](https://piazza.com/utoronto.ca/winter2026/sta414sta2014/home)
 
 ## Announcements
 
-+ Assignment 1 is out! it is due on Sunday, Feb 1st before 23:59PM.
++ [Practice midterm](Midterm.pdf) is released, solutions will appear soon.
++ Assignment 2 is out! It is due on Sunday, Feb 15th before 23:59PM.
++ Assignment 1 is out! It is due on Sunday, Feb 1st before 23:59PM.
 + The Office Hours for Tuesday, January 13th are exceptionally pushed back to 9:45 am – 11:45 am.
 + Lectures begin on Jan 6!
 
@@ -134,12 +136,12 @@ No required textbooks. Some suggested readings are:
 
 ## Homeworks
 
-| Homework #                                                                                                 | Out          | Due | TA Office Hours                                                               | Solutions |
-|:-----------------------------------------------------------------------------------------------------------|:-------------|:----|:------------------------------------------------------------------------------| :--- |
-| **[Assignment 1](https://colab.research.google.com/drive/1-7m9XTofij71W__FkhzDSyPrjWRAd6LP?usp=sharing)**  | January 19th | Feb 1$^{st}$, at 23:59PM    | Tuesday at 9:00 AM with Liam Welsh <br/> Thursday at 9:00 AM with Jonathan Li |  |
-| **[Assignment 2](https://colab.research.google.com/drive/1TYFDvmDnX8qAF1xyloUp0uGvJQ7J0a-J?usp=sharing )** | February 4th          | February 15th, at 23:59PM | TBD                                                                           |  |
-| **Assignment 3**                                                                                           | TBD          | TBD | TBD                                                                           |  |
-| **Assignment 4**                                                                                           | TBD          | TBD | TBD                                                                           |  |
+| Homework #                                                                                                 | Out          | Due | TA Office Hours                                                               | Solutions                                                                                          |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:----|:------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
+| **[Assignment 1](https://colab.research.google.com/drive/1-7m9XTofij71W__FkhzDSyPrjWRAd6LP?usp=sharing)**  | January 19th | Feb 1$^{st}$, at 23:59PM    | Tuesday at 9:00 AM with Liam Welsh <br/> Thursday at 9:00 AM with Jonathan Li | [Solutions](https://colab.research.google.com/drive/1sb3DSN-tKiU8krXtsmbzLO1XzeWOdFvY?usp=sharing) |
+| **[Assignment 2](https://colab.research.google.com/drive/1TYFDvmDnX8qAF1xyloUp0uGvJQ7J0a-J?usp=sharing )** | February 4th          | February 15th, at 23:59PM | TBD                                                                           |                                                                                                    |
+| **Assignment 3**                                                                                           | TBD          | TBD | TBD                                                                           |                                                                                                    |
+| **Assignment 4**                                                                                           | TBD          | TBD | TBD                                                                           |                                                                                                    |
 
 ## Project
 
