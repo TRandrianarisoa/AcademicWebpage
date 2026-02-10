@@ -81,6 +81,7 @@ More details can be found in [syllabus](STAD91H3S-2026_Winter_Syllabus-20260105.
 
 ## Announcements
 
++ [Practice midterm](Midterm.pdf) is out! Solutions will follow soon.
 + Lectures begin on Jan 8!
 
 ## Instructor
