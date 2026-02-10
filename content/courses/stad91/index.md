@@ -91,10 +91,10 @@ More details can be found in [syllabus](STAD91H3S-2026_Winter_Syllabus-20260105.
   - Office hours: Thursday 10am–1pm
 
 ## Teaching Assistants
-TBA
 
-* They will handle all questions related to homework assigments, the midterm and the final exam.
-* Email: TBA (in the subject of the email indicate the scope: HW1, HW2, general, etc)
+Hanlong Chen (sl.chen@mail.utoronto.ca)
+
+* He will handle all questions related to the practice final exam.
 
 ## Time & Location
 

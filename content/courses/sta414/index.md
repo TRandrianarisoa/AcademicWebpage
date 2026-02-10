@@ -94,7 +94,6 @@ and [piazza](https://piazza.com/utoronto.ca/winter2026/sta414sta2014/home)
 Yichen Ji, Shengzhuo Li, Liam Welsh, Yan Zhang, Amir Reza Peimani
 
 * They will handle all questions related to homework assigments, the midterm and the final exam.
-* Email: TBA (in the subject of the email indicate the scope: HW1, HW2, general, etc)
 
 ## Time & Location
 
