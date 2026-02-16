@@ -78,6 +78,7 @@ and [piazza](https://piazza.com/utoronto.ca/winter2026/sta414sta2014/home)
 
 ## Announcements
 
++ [Solutions](Midterm_solutions.pdf) for the practice midterm are out!
 + [Practice midterm](Midterm.pdf) is released, solutions will appear soon.
 + Assignment 2 is out! It is due on Sunday, Feb 15th before 23:59PM.
 + Assignment 1 is out! It is due on Sunday, Feb 1st before 23:59PM.
