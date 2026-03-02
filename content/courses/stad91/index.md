@@ -136,10 +136,10 @@ Additional suggested readings are:
 
 ## Homeworks
 
-| Homework #       | Out  | Due | TA Office Hours | Solutions |
-|:-----------------|:-----| :--- | :--- | :--- |
-| **Assignment 1** | TBD  | TBD  | TBD  |  |
-| **Assignment 2** | TBD  | TBD  | TBD  |  |
+| Homework #                                                                                                | Out                   | Due                                               | Solutions |
+|:----------------------------------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------|:---------|
+| **[Assignment 1](https://colab.research.google.com/drive/1-dRk3Xm049msES2gP3L_tkMt2FTw593R?usp=sharing)** | March $2^{\text{nd}}$ | March $15^{\text{th}}$, 23:59                     |          |
+| **Assignment 2**                                                                                          | TBD                   | TBD                                               |  |
 
 
 ## Computing Resources
