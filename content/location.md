@@ -13,7 +13,7 @@ description: "Office addresses at the University of Toronto."
 ### 📍 Department of Statistical Sciences  
 **University of Toronto**  
 *St. George Campus*  
-**Office:** Hydro Building, Room 9179  
+**Office:** Hydro Building, Room 9087  
 
 ---
 
