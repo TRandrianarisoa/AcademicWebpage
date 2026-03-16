@@ -81,6 +81,7 @@ More details can be found in [syllabus](STAD91H3S-2026_Winter_Syllabus-20260105.
 
 ## Announcements
 
++ 
 + Please find here the [solutions](Midterm%20Solutions_true.pdf) for the midterm!
 + [Solutions](Midterm%20Solutions.pdf) for the practice midterm are out!
 + [Practice midterm](Midterm.pdf) is out! Solutions will follow soon.
