@@ -138,10 +138,10 @@ Additional suggested readings are:
 
 ## Homeworks
 
-| Homework #                                                                                                | Out                   | Due                                               | Solutions |
-|:----------------------------------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------|:---------|
-| **[Assignment 1](https://colab.research.google.com/drive/1-dRk3Xm049msES2gP3L_tkMt2FTw593R?usp=sharing)** | March $2^{\text{nd}}$ | March $15^{\text{th}}$, 23:59                     |          |
-| **Assignment 2**                                                                                          | TBD                   | TBD                                               |  |
+| Homework #                                                                                                | Out                    | Due                           | Solutions |
+|:----------------------------------------------------------------------------------------------------------|:-----------------------|:------------------------------|:---------|
+| **[Assignment 1](https://colab.research.google.com/drive/1-dRk3Xm049msES2gP3L_tkMt2FTw593R?usp=sharing)** | March $2^{\text{nd}}$  | March $15^{\text{th}}$, 23:59 |          |
+| **[Assignment 2](https://colab.research.google.com/drive/1M_uBCQHHJJvX3xAqraCC1PC0CQvojApa?usp=sharing)**                                                                                      | March $17^{\text{th}}$ | March $31^{\text{st}}$, 23:59 |  |
 
 
 ## Computing Resources
