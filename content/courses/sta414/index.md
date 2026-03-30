@@ -78,6 +78,7 @@ and [piazza](https://piazza.com/utoronto.ca/winter2026/sta414sta2014/home)
 
 ## Announcements
 
++ The [practice exam](Practice_Final.pdf) is out! Please be aware that it is longer than the actual exam and is provided purely as a resource to help you prepare.
 + Please find here the [solutions](Midterm_solutions_true.pdf) for the midterm!
 + [Solutions](Midterm_solutions.pdf) for the practice midterm are out!
 + [Practice midterm](Midterm.pdf) is released, solutions will appear soon.
