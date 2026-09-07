@@ -20,4 +20,4 @@ description: "Office addresses at the University of Toronto."
 ### 📍 Department of Computer and Mathematical Sciences  
 **University of Toronto Scarborough**  
 *UTSC Campus*  
-**Office:** Instructional Centre, Room IA 4059  
+**Office:** Instructional Centre, Room IA 4064  

@@ -26,7 +26,7 @@ cover:
     alt: "PML"
     relative: false
 #editPost:
-#    URL: "https://thibaultrandrianarisoa.netlify.app/courses/sta414/"
+#    URL: "https://thibaultrandrianarisoa.netlify.app/courses/stad91/"
 #    Text: "Course portal"
 showToc: true
 disableAnchoredHeadings: false

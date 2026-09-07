@@ -25,6 +25,7 @@ By default, meetings are in my office (IA 4059/UY 9179).
 --- 
 #### Instructor (University of Toronto, Scarborough campus)
 
+* [STAC67](/courses/stac67/): Regression Analysis (Fall 2026)
 * [STAD91](/courses/stad91/): Bayesian Statistical Analysis (Winter 2026)
 * [STAB52](https://utsc.calendar.utoronto.ca/course/stab52h3): An Introduction to Probability (Fall 2024).
 
