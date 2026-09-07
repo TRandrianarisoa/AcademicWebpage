@@ -38,7 +38,7 @@ when the standard assumptions fail: diagnostics, model selection and validation,
 including weighted least squares. All computation is in R, and you will be expected to write R code,
 interpret its output, and report your conclusions in writing.
 
-More details can be found in the syllabus (link to come),
+More details can be found in the [syllabus](STAC67H3F-2026_Fall_Syllabus-20260902.docx),
 [quercus](https://q.utoronto.ca/courses/464507) and [piazza](https://piazza.com/demo_login?nid=mtrg4rj858g237&auth=950bc81).
 
 ## Announcements
