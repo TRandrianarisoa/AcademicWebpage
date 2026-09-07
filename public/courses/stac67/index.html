@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>STAC67 Fall 2026 - Regression Analysis | Thibault Randrianarisoa</title>
+<meta name="keywords" content="Simple linear regression, Multiple linear regression, Least squares, Geometry of least squares, Analysis of variance, Confidence and prediction intervals, Multicollinearity, Qualitative predictors, Polynomial regression, Model selection, Diagnostics, Weighted least squares, Ridge and LASSO, R">
+<meta name="description" content="An undergraduate course on the theory and practice of regression analysis, taught with R.">
+<meta name="author" content="Thibault Randrianarisoa">
+<link rel="canonical" href="http://localhost:1313/courses/stac67/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9f14d0c248daea29ce935b53a3e41f3fab665ebe18ec26af2ba02a16ac629ad0.css" integrity="sha256-nxTQwkja6inOk1tTo&#43;QfP6tmXr4Y7CavK6AqFqximtA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/courses/stac67/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="STAC67 Fall 2026 - Regression Analysis" />
+<meta property="og:description" content="An undergraduate course on the theory and practice of regression analysis, taught with R." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/courses/stac67/" />
+<meta property="og:image" content="http://localhost:1313/stac67.jpeg" /><meta property="article:section" content="courses" />
+<meta property="article:published_time" content="2026-09-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-09-07T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/stac67.jpeg" />
+<meta name="twitter:title" content="STAC67 Fall 2026 - Regression Analysis"/>
+<meta name="twitter:description" content="An undergraduate course on the theory and practice of regression analysis, taught with R."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Courses",
+      "item": "http://localhost:1313/courses/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "STAC67 Fall 2026 - Regression Analysis",
+      "item": "http://localhost:1313/courses/stac67/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "STAC67 Fall 2026 - Regression Analysis",
+  "name": "STAC67 Fall 2026 - Regression Analysis",
+  "description": "An undergraduate course on the theory and practice of regression analysis, taught with R.",
+  "keywords": [
+    "Simple linear regression", "Multiple linear regression", "Least squares", "Geometry of least squares", "Analysis of variance", "Confidence and prediction intervals", "Multicollinearity", "Qualitative predictors", "Polynomial regression", "Model selection", "Diagnostics", "Weighted least squares", "Ridge and LASSO", "R"
+  ],
+  "articleBody": " Introduction Regression is one of the most widely used statistical techniques across the sciences, social sciences, and industry. This course develops both its theory and its practice: how regression models are built and justified, and how to analyse data when they apply.\nWe begin with simple linear regression — least squares estimation, the geometry behind it, and inference on the regression parameters under normally distributed errors — then extend to multiple regression in matrix form, covering analysis of variance, confidence and prediction intervals, multicollinearity, and models with both quantitative and qualitative predictors. The last part of the course asks what to do when the standard assumptions fail: diagnostics, model selection and validation, and remedial measures including weighted least squares. All computation is in R, and you will be expected to write R code, interpret its output, and report your conclusions in writing.\nMore details can be found in the syllabus (link to come), quercus and piazza.\nAnnouncements Lectures begin on September 9! Instructor Thibault Randrianarisoa, Office: IA 4064 Email: t.randrianarisoa@utoronto.ca (put “[STAC67]” in the subject, and your student number in the body) Office hours: Wednesday 10–11am and Friday 3–4pm, IA 4064 Please use Piazza for questions about course content; email is reserved for private matters.\nTeaching Assistants To be announced.\nTime \u0026 Location Section Day \u0026 time Location LEC01 Wednesday, 4:00 PM – 5:00 PMFriday, 1:00 PM – 3:00 PM In person: IA 2021In person: IA 2021 TUT0001 Tuesday, 5:00 PM – 6:00 PM In person: IA 3120 TUT0002 Wednesday, 3:00 PM – 4:00 PM In person: IC 208 Tutorials start in Week 2 and run weekly. They are used for practical work in R and for the three quizzes. Note that tutorials meet before that week’s lectures, so a tutorial only assumes material covered up to the previous Friday, and each quiz covers material up to the Friday of the week before.\nSuggested Reading The course follows the chapter structure of Applied Linear Regression Models (Kutner), the required text.\n(Kutner) Kutner, Nachtsheim \u0026 Neter (2004), Applied Linear Regression Models, 4th edition (older editions are fine). Data sets and solution manual (Sheather) Simon J. Sheather (2009), A Modern Approach to Regression with R — a lighter, R-centred companion, available online through the UofT library. Lectures and (tentative) timeline Slides and annotated slides will be posted here after each class.\nWeek Lectures Suggested reading Tutorial Timeline Week 1 7–13 September Introduction; what regression is; data visualisation; covariance and correlation Correlation and its test; data collection and the regression process; the simple linear regression model Kutner 1.1–1.3 Kutner 2.11 Week 2 14–20 September Least squares estimation; the Gauss–Markov theorem; interpretation of $\\sigma^2$; fitted values and residuals Inference on the regression parameters: confidence intervals and hypothesis tests Kutner 1.4–1.7 Kutner 2.1–2.2 Tutorial 1 R, RStudio and R Markdown Assignment 1 out (Sep 18) Week 3 21–27 September Sampling distribution of the estimators; interval estimation of the mean response; prediction intervals Analysis of variance; the coefficient of determination Kutner 2.3–2.6 Kutner 2.7–2.9 Tutorial 2 Descriptive statistics and ggplot2 Week 4 28 September–4 October F- and t-tests; descriptive measures of association; model assumptions and residual plots Matrices and random vectors; simple linear regression in matrix form; the hat matrix Kutner 3.1–3.3 Kutner 5.1–5.10 Tutorial 3 Simple linear regression in R Assignment 1 due (Sep 30) Week 5 5–11 October Useful matrix results Properties of linear functions of random vectors; properties of the estimators, fitted values, residuals and predictions Kutner 5.11–5.13 Kutner 6.1–6.4 Tutorial 4 — ANOVA table, $R^2$, sampling distributions by simulation Quiz 1 Assignment 2 out (Oct 7) Project brief (Oct 9) Week 6 12–18 October The geometry of least squares Inference for the mean response and a new observation; quadratic forms; the overall F-test Kutner 6.5–6.8 Tutorial 5 Matrix algebra in R Week 7 19–25 October General linear hypothesis testing; extra sums of squares Multicollinearity and its effects; qualitative predictors Kutner 7.1–7.5 Kutner 7.6, 8.3 Tutorial 6 Fitting and interpreting multiple regression Assignment 2 due (Oct 21) Midterm Week 8 26 October–1 November Reading Week Week 9 2–8 November One continuous and one categorical predictor Interaction models; case study Kutner 8.3–8.6 Tutorial 7 Multiple regression inference Quiz 2 Assignment 3 out Groups + datasets due (Nov 6) Week 10 9–15 November Polynomial regression models; centred predictors Variable transformations Kutner 8.1–8.2 Kutner 3.9 Tutorial 8 Categorical predictors, interactions, ANCOVA Project checkpoint due (Nov 13) Week 11 16–22 November Model selection and validation: criteria and procedures Diagnostics: outlying $Y$ and $X$ observations, leverage Kutner 9.1–9.6 Kutner 10.1–10.3 Tutorial 9 Polynomial fits and transformations Assignment 3 due (Nov 18) Week 12 23–29 November Influential observations; multicollinearity diagnostics Remedial measures: weighted least squares Kutner 10.4–10.5 Kutner 11.1 Tutorial 10 Model selection and diagnostics Quiz 3 Project report due (Nov 27) Last day to drop: Nov 24 Week 13 30 November–6 December Shrinkage methods: the bias–variance trade-off, ridge regression and the LASSO Project presentations; course review Kutner 11.2 Tutorial 11 Exam revision Presentations (Dec 4) Assessments The midterm is scheduled by the Registrar’s Office in the week of October 19–25 and covers material through Week 6. The final exam falls in the examination period, December 10–22, and covers the whole term. Dates, times and rooms are announced by the Registrar.\nPractice papers and statistical tables will be posted here.\nAssignments Assignment Out Due Solutions Assignment 1 September 18th September $30^{\\text{th}}$, 23:59 Assignment 2 October 7th October $21^{\\text{st}}$, 23:59 Assignment 3 November 4th November $18^{\\text{th}}$, 23:59 Late submissions are not accepted.\nQuizzes Three quizzes, written in tutorial. The best two of three count, and there are no make-up quizzes.\nQuiz Tutorial Covers Solutions Quiz 1 Week 5 (Oct 6 / Oct 7) through Friday October 2 Quiz 2 Week 9 (Nov 3 / Nov 4) through Friday October 23 Quiz 3 Week 12 (Nov 24 / Nov 25) through Friday November 20 Case study project (optional) Groups of at most four, working on a dataset from a pre-approved list, assessed on a checkpoint, a written report in R Markdown, and a five-minute presentation.\nYour grade is computed both with and without the project, and you receive whichever is higher — so the project counts whenever your project mark beats your final exam mark. It can raise your grade and can never lower it. See the syllabus for the formula.\nMilestone Date Materials Brief and dataset list released October 9th Groups and dataset claimed (binding) November 6th Checkpoint: research question + EDA November 13th Report due November 27th, 23:59 Presentations December 4th Computing Resources All computation in this course is in R, and you are expected to write R code and interpret R output on assignments, quizzes and tests.\nInstall R (free, all platforms), then RStudio Desktop as the editor. Reports are written in R Markdown, which produces a PDF or HTML document from code and prose in one file. It is covered in Tutorial 1. Figures use ggplot2. Install the packages used in the course with install.packages(c(\"ggplot2\", \"dplyr\", \"car\", \"leaps\", \"MASS\", \"glmnet\")). Useful references: R for Data Science, the R Markdown lessons, and the ggplot2 cheat sheet. ",
+  "wordCount" : "1178",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/stac67.jpeg","datePublished": "2026-09-07T00:00:00Z",
+  "dateModified": "2026-09-07T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Thibault Randrianarisoa"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/courses/stac67/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Thibault Randrianarisoa",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Thibault Randrianarisoa">
+                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Thibault Randrianarisoa</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/teaching/" title="Teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      STAC67 Fall 2026 - Regression Analysis
+    </h1>
+    <div class="post-meta"><span title='2026-09-07 00:00:00 +0000 UTC'>September 2026</span>&nbsp;&middot;&nbsp;Thibault Randrianarisoa
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#announcements">Announcements</a></li>
+    <li><a href="#instructor">Instructor</a></li>
+    <li><a href="#teaching-assistants">Teaching Assistants</a></li>
+    <li><a href="#time--location">Time &amp; Location</a></li>
+    <li><a href="#suggested-reading">Suggested Reading</a></li>
+    <li><a href="#lectures-and-tentative-timeline">Lectures and (tentative) timeline</a></li>
+    <li><a href="#assessments">Assessments</a></li>
+    <li><a href="#computing-resources">Computing Resources</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p><img loading="lazy" src="stac67.jpeg" alt="Alt text"  />
+</p>
+<h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>Regression is one of the most widely used statistical techniques across the sciences, social sciences,
+and industry. This course develops both its theory and its practice: how regression models are built
+and justified, and how to analyse data when they apply.</p>
+<p>We begin with simple linear regression — least squares estimation, the geometry behind it, and inference
+on the regression parameters under normally distributed errors — then extend to multiple regression in
+matrix form, covering analysis of variance, confidence and prediction intervals, multicollinearity, and
+models with both quantitative and qualitative predictors. The last part of the course asks what to do
+when the standard assumptions fail: diagnostics, model selection and validation, and remedial measures
+including weighted least squares. All computation is in R, and you will be expected to write R code,
+interpret its output, and report your conclusions in writing.</p>
+<p>More details can be found in the syllabus (link to come),
+<a href="https://q.utoronto.ca/courses/464507" target="_blank">quercus</a> and <a href="https://piazza.com/demo_login?nid=mtrg4rj858g237&amp;auth=950bc81" target="_blank">piazza</a>.</p>
+<h2 id="announcements">Announcements<a hidden class="anchor" aria-hidden="true" href="#announcements">#</a></h2>
+<ul>
+<li>Lectures begin on September 9!</li>
+</ul>
+<h2 id="instructor">Instructor<a hidden class="anchor" aria-hidden="true" href="#instructor">#</a></h2>
+<ul>
+<li>Thibault Randrianarisoa, Office: IA 4064
+<ul>
+<li>Email: <a href="mailto:t.randrianarisoa@utoronto.ca">t.randrianarisoa@utoronto.ca</a> (put &ldquo;[STAC67]&rdquo; in the subject, and your student number in the body)</li>
+<li>Office hours: Wednesday 10–11am and Friday 3–4pm, IA 4064</li>
+</ul>
+</li>
+</ul>
+<p>Please use Piazza for questions about course content; email is reserved for private matters.</p>
+<h2 id="teaching-assistants">Teaching Assistants<a hidden class="anchor" aria-hidden="true" href="#teaching-assistants">#</a></h2>
+<p><em>To be announced.</em></p>
+<h2 id="time--location">Time &amp; Location<a hidden class="anchor" aria-hidden="true" href="#time--location">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Section</th>
+          <th style="text-align: left">Day &amp; time</th>
+          <th style="text-align: left">Location</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>LEC01</strong></td>
+          <td style="text-align: left">Wednesday, 4:00 PM – 5:00 PM<br/>Friday, 1:00 PM – 3:00 PM</td>
+          <td style="text-align: left">In person: IA 2021<br/>In person: IA 2021</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>TUT0001</strong></td>
+          <td style="text-align: left">Tuesday, 5:00 PM – 6:00 PM</td>
+          <td style="text-align: left">In person: IA 3120</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>TUT0002</strong></td>
+          <td style="text-align: left">Wednesday, 3:00 PM – 4:00 PM</td>
+          <td style="text-align: left">In person: IC 208</td>
+      </tr>
+  </tbody>
+</table>
+<p>Tutorials start in <strong>Week 2</strong> and run weekly. They are used for practical work in R and for the three
+quizzes. Note that tutorials meet <em>before</em> that week&rsquo;s lectures, so a tutorial only assumes material
+covered up to the previous Friday, and each quiz covers material up to the Friday of the week before.</p>
+<h2 id="suggested-reading">Suggested Reading<a hidden class="anchor" aria-hidden="true" href="#suggested-reading">#</a></h2>
+<p>The course follows the chapter structure of <em>Applied Linear Regression Models</em> (Kutner), the required text.</p>
+<ul>
+<li><strong>(Kutner)</strong> Kutner, Nachtsheim &amp; Neter (2004), <em>Applied Linear Regression Models</em>, 4th edition
+(older editions are fine). <a href="http://www.cnachtsheim-text.csom.umn.edu" target="_blank">Data sets and solution manual</a></li>
+<li><strong>(Sheather)</strong> Simon J. Sheather (2009), <em>A Modern Approach to Regression with R</em> — a lighter,
+R-centred companion, available online through the UofT library.</li>
+</ul>
+<h2 id="lectures-and-tentative-timeline">Lectures and (tentative) timeline<a hidden class="anchor" aria-hidden="true" href="#lectures-and-tentative-timeline">#</a></h2>
+<p>Slides and annotated slides will be posted here after each class.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Week</th>
+          <th style="text-align: left">Lectures</th>
+          <th style="text-align: left">Suggested reading</th>
+          <th style="text-align: left">Tutorial</th>
+          <th style="text-align: left">Timeline</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Week 1 <br/>7–13 September<br/></td>
+          <td style="text-align: left">Introduction; what regression is; data visualisation; covariance and correlation <br/><br/> Correlation and its test; data collection and the regression process; the simple linear regression model</td>
+          <td style="text-align: left">Kutner 1.1–1.3 <br/> Kutner 2.11</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 2 <br/>14–20 September<br/></td>
+          <td style="text-align: left">Least squares estimation; the Gauss–Markov theorem; interpretation of $\sigma^2$; fitted values and residuals <br/><br/> Inference on the regression parameters: confidence intervals and hypothesis tests</td>
+          <td style="text-align: left">Kutner 1.4–1.7 <br/> Kutner 2.1–2.2</td>
+          <td style="text-align: left">Tutorial 1 <br> R, RStudio and R Markdown</td>
+          <td style="text-align: left">Assignment 1 out (Sep 18)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 3 <br/>21–27 September<br/></td>
+          <td style="text-align: left">Sampling distribution of the estimators; interval estimation of the mean response; prediction intervals <br/><br/> Analysis of variance; the coefficient of determination</td>
+          <td style="text-align: left">Kutner 2.3–2.6 <br/> Kutner 2.7–2.9</td>
+          <td style="text-align: left">Tutorial 2 <br> Descriptive statistics and <code>ggplot2</code></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 4 <br/>28 September–4 October<br/></td>
+          <td style="text-align: left">F- and t-tests; descriptive measures of association; model assumptions and residual plots <br/><br/> Matrices and random vectors; simple linear regression in matrix form; the hat matrix</td>
+          <td style="text-align: left">Kutner 3.1–3.3 <br/> Kutner 5.1–5.10</td>
+          <td style="text-align: left">Tutorial 3 <br> Simple linear regression in R</td>
+          <td style="text-align: left"><strong>Assignment 1 due (Sep 30)</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 5 <br/>5–11 October<br/></td>
+          <td style="text-align: left">Useful matrix results <br/><br/> Properties of linear functions of random vectors; properties of the estimators, fitted values, residuals and predictions</td>
+          <td style="text-align: left">Kutner 5.11–5.13 <br/> Kutner 6.1–6.4</td>
+          <td style="text-align: left">Tutorial 4 — ANOVA table, $R^2$, sampling distributions by simulation</td>
+          <td style="text-align: left">Quiz 1 <br/> Assignment 2 out (Oct 7) <br/> <strong>Project brief (Oct 9)</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 6 <br/>12–18 October<br/></td>
+          <td style="text-align: left">The geometry of least squares <br/><br/> Inference for the mean response and a new observation; quadratic forms; the overall F-test</td>
+          <td style="text-align: left">Kutner 6.5–6.8</td>
+          <td style="text-align: left">Tutorial 5 <br> Matrix algebra in R</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 7 <br/>19–25 October<br/></td>
+          <td style="text-align: left">General linear hypothesis testing; extra sums of squares <br/><br/> Multicollinearity and its effects; qualitative predictors</td>
+          <td style="text-align: left">Kutner 7.1–7.5 <br/> Kutner 7.6, 8.3</td>
+          <td style="text-align: left">Tutorial 6 <br> Fitting and interpreting multiple regression</td>
+          <td style="text-align: left"><strong>Assignment 2 due (Oct 21)</strong> <br/> <strong>Midterm</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 8 <br/>26 October–1 November<br/></td>
+          <td style="text-align: left"><strong>Reading Week</strong></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 9 <br/>2–8 November<br/></td>
+          <td style="text-align: left">One continuous and one categorical predictor <br/><br/> Interaction models; case study</td>
+          <td style="text-align: left">Kutner 8.3–8.6</td>
+          <td style="text-align: left">Tutorial 7 <br> Multiple regression inference</td>
+          <td style="text-align: left">Quiz 2 <br/> Assignment 3 out <br/> <strong>Groups + datasets due (Nov 6)</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 10 <br/>9–15 November<br/></td>
+          <td style="text-align: left">Polynomial regression models; centred predictors <br/><br/> Variable transformations</td>
+          <td style="text-align: left">Kutner 8.1–8.2 <br/> Kutner 3.9</td>
+          <td style="text-align: left">Tutorial 8 <br> Categorical predictors, interactions, ANCOVA</td>
+          <td style="text-align: left"><strong>Project checkpoint due (Nov 13)</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 11 <br/>16–22 November<br/></td>
+          <td style="text-align: left">Model selection and validation: criteria and procedures <br/><br/> Diagnostics: outlying $Y$ and $X$ observations, leverage</td>
+          <td style="text-align: left">Kutner 9.1–9.6 <br/> Kutner 10.1–10.3</td>
+          <td style="text-align: left">Tutorial 9 <br> Polynomial fits and transformations</td>
+          <td style="text-align: left"><strong>Assignment 3 due (Nov 18)</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 12 <br/>23–29 November<br/></td>
+          <td style="text-align: left">Influential observations; multicollinearity diagnostics <br/><br/> Remedial measures: weighted least squares</td>
+          <td style="text-align: left">Kutner 10.4–10.5 <br/> Kutner 11.1</td>
+          <td style="text-align: left">Tutorial 10 <br> Model selection and diagnostics</td>
+          <td style="text-align: left">Quiz 3 <br/> <strong>Project report due (Nov 27)</strong> <br/> <em>Last day to drop: Nov 24</em></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Week 13 <br/>30 November–6 December<br/></td>
+          <td style="text-align: left">Shrinkage methods: the bias–variance trade-off, ridge regression and the LASSO <br/><br/> <strong>Project presentations</strong>; course review</td>
+          <td style="text-align: left">Kutner 11.2</td>
+          <td style="text-align: left">Tutorial 11 <br> Exam revision</td>
+          <td style="text-align: left"><strong>Presentations (Dec 4)</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="assessments">Assessments<a hidden class="anchor" aria-hidden="true" href="#assessments">#</a></h2>
+<p>The <strong>midterm</strong> is scheduled by the Registrar&rsquo;s Office in the week of <strong>October 19–25</strong> and covers
+material through Week 6. The <strong>final exam</strong> falls in the examination period, <strong>December 10–22</strong>, and
+covers the whole term. Dates, times and rooms are announced by the Registrar.</p>
+<p>Practice papers and statistical tables will be posted here.</p>
+<h3 id="assignments">Assignments<a hidden class="anchor" aria-hidden="true" href="#assignments">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Assignment</th>
+          <th style="text-align: left">Out</th>
+          <th style="text-align: left">Due</th>
+          <th style="text-align: left">Solutions</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Assignment 1</strong></td>
+          <td style="text-align: left">September 18th</td>
+          <td style="text-align: left">September $30^{\text{th}}$, 23:59</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Assignment 2</strong></td>
+          <td style="text-align: left">October 7th</td>
+          <td style="text-align: left">October $21^{\text{st}}$, 23:59</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Assignment 3</strong></td>
+          <td style="text-align: left">November 4th</td>
+          <td style="text-align: left">November $18^{\text{th}}$, 23:59</td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<p>Late submissions are not accepted.</p>
+<h3 id="quizzes">Quizzes<a hidden class="anchor" aria-hidden="true" href="#quizzes">#</a></h3>
+<p>Three quizzes, written in tutorial. The <strong>best two of three</strong> count, and there are no make-up quizzes.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Quiz</th>
+          <th style="text-align: left">Tutorial</th>
+          <th style="text-align: left">Covers</th>
+          <th style="text-align: left">Solutions</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Quiz 1</strong></td>
+          <td style="text-align: left">Week 5 (Oct 6 / Oct 7)</td>
+          <td style="text-align: left">through Friday October 2</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Quiz 2</strong></td>
+          <td style="text-align: left">Week 9 (Nov 3 / Nov 4)</td>
+          <td style="text-align: left">through Friday October 23</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Quiz 3</strong></td>
+          <td style="text-align: left">Week 12 (Nov 24 / Nov 25)</td>
+          <td style="text-align: left">through Friday November 20</td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="case-study-project-optional">Case study project (optional)<a hidden class="anchor" aria-hidden="true" href="#case-study-project-optional">#</a></h3>
+<p>Groups of <strong>at most four</strong>, working on a dataset from a pre-approved list, assessed on a checkpoint, a
+written report in R Markdown, and a five-minute presentation.</p>
+<p>Your grade is computed both with and without the project, and <strong>you receive whichever is higher</strong> — so
+the project counts whenever your project mark beats your final exam mark. It can raise your grade and
+can never lower it. See the syllabus for the formula.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Milestone</th>
+          <th style="text-align: left">Date</th>
+          <th style="text-align: left">Materials</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Brief and dataset list released</td>
+          <td style="text-align: left">October 9th</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Groups and dataset claimed (binding)</td>
+          <td style="text-align: left"><strong>November 6th</strong></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Checkpoint: research question + EDA</td>
+          <td style="text-align: left"><strong>November 13th</strong></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Report due</td>
+          <td style="text-align: left"><strong>November 27th</strong>, 23:59</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Presentations</td>
+          <td style="text-align: left"><strong>December 4th</strong></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="computing-resources">Computing Resources<a hidden class="anchor" aria-hidden="true" href="#computing-resources">#</a></h2>
+<p>All computation in this course is in <strong>R</strong>, and you are expected to write R code and interpret R output
+on assignments, quizzes and tests.</p>
+<ul>
+<li>Install <a href="https://www.r-project.org/" target="_blank">R</a> (free, all platforms), then
+<a href="https://posit.co/download/rstudio-desktop/" target="_blank">RStudio Desktop</a> as the editor.</li>
+<li>Reports are written in <strong>R Markdown</strong>, which produces a PDF or HTML document from code and prose in
+one file. It is covered in Tutorial 1.</li>
+<li>Figures use <a href="https://ggplot2.tidyverse.org/" target="_blank"><code>ggplot2</code></a>. Install the packages used in the course with
+<code>install.packages(c(&quot;ggplot2&quot;, &quot;dplyr&quot;, &quot;car&quot;, &quot;leaps&quot;, &quot;MASS&quot;, &quot;glmnet&quot;))</code>.</li>
+<li>Useful references: <a href="https://r4ds.hadley.nz/" target="_blank">R for Data Science</a>,
+the <a href="https://rmarkdown.rstudio.com/lesson-1.html" target="_blank">R Markdown</a> lessons, and the
+<a href="https://posit.co/resources/cheatsheets/" target="_blank">ggplot2 cheat sheet</a>.</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/simple-linear-regression/">Simple Linear Regression</a></li>
+      <li><a href="http://localhost:1313/tags/multiple-linear-regression/">Multiple Linear Regression</a></li>
+      <li><a href="http://localhost:1313/tags/least-squares/">Least Squares</a></li>
+      <li><a href="http://localhost:1313/tags/geometry-of-least-squares/">Geometry of Least Squares</a></li>
+      <li><a href="http://localhost:1313/tags/analysis-of-variance/">Analysis of Variance</a></li>
+      <li><a href="http://localhost:1313/tags/confidence-and-prediction-intervals/">Confidence and Prediction Intervals</a></li>
+      <li><a href="http://localhost:1313/tags/multicollinearity/">Multicollinearity</a></li>
+      <li><a href="http://localhost:1313/tags/qualitative-predictors/">Qualitative Predictors</a></li>
+      <li><a href="http://localhost:1313/tags/polynomial-regression/">Polynomial Regression</a></li>
+      <li><a href="http://localhost:1313/tags/model-selection/">Model Selection</a></li>
+      <li><a href="http://localhost:1313/tags/diagnostics/">Diagnostics</a></li>
+      <li><a href="http://localhost:1313/tags/weighted-least-squares/">Weighted Least Squares</a></li>
+      <li><a href="http://localhost:1313/tags/ridge-and-lasso/">Ridge and LASSO</a></li>
+      <li><a href="http://localhost:1313/tags/r/">R</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="http://localhost:1313/">Thibault Randrianarisoa</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

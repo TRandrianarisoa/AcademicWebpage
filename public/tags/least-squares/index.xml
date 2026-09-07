@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Least Squares on Thibault Randrianarisoa</title>
+    <link>http://localhost:1313/tags/least-squares/</link>
+    <description>Recent content in Least Squares on Thibault Randrianarisoa</description>
+    <generator>Hugo -- 0.139.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/least-squares/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>STAC67 Fall 2026 - Regression Analysis</title>
+      <link>http://localhost:1313/courses/stac67/</link>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/stac67/</guid>
+      <description>An undergraduate course on the theory and practice of regression analysis, taught with R.</description>
+    </item>
+  </channel>
+</rss>

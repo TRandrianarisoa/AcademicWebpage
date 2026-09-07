@@ -6,8 +6,15 @@
     <description>Recent content on Thibault Randrianarisoa</description>
     <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>STAC67 Fall 2026 - Regression Analysis</title>
+      <link>http://localhost:1313/courses/stac67/</link>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/stac67/</guid>
+      <description>An undergraduate course on the theory and practice of regression analysis, taught with R.</description>
+    </item>
     <item>
       <title>STA414 / STA2104 Winter 2026 - Statistical Methods for Machine Learning II</title>
       <link>http://localhost:1313/courses/sta414/</link>
