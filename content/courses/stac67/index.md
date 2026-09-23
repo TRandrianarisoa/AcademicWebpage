@@ -53,7 +53,6 @@ More details can be found in the [syllabus](STAC67H3F-2026_Fall_Syllabus-2026090
 
 Please use Piazza for questions about course content; email is reserved for private matters.
 
-## Teaching Assistants
 
 ## Teaching Assistants
 
