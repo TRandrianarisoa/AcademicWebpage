@@ -126,11 +126,11 @@ Late submissions are not accepted.
 
 Three quizzes, written in tutorial. The **best two of three** count, and there are no make-up quizzes.
 
-| Quiz       | Tutorial                  | Covers                      | Solutions |
-|:-----------|:--------------------------|:----------------------------|:----------|
-| **Quiz 1** | Week 4 (Sep 29 / Sep 30)  | through Friday September 25 |           |
-| **Quiz 2** | Week 9 (Nov 3 / Nov 4)    | through Friday October 23   |           |
-| **Quiz 3** | Week 12 (Nov 24 / Nov 25) | through Friday November 20  |           |
+| Quiz       | Tutorial                  | Covers                      | Solutions           |
+|:-----------|:--------------------------|:----------------------------|:--------------------|
+| **Quiz 1** | Week 4 (Sep 29 / Sep 30)  | through Friday September 25 | [Quiz 1](Quiz1.zip) |
+| **Quiz 2** | Week 9 (Nov 3 / Nov 4)    | through Friday October 23   |                     |
+| **Quiz 3** | Week 12 (Nov 24 / Nov 25) | through Friday November 20  |                     |
 
 ### Case study project (optional)
 
